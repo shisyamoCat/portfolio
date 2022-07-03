@@ -1,0 +1,296 @@
+@import url(./reboot.css);
+@import url(./format.css);
+
+/*==================================================
+ bodyのデフォルト設定
+==================================================*/
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+
+    * {
+        box-sizing: border-box;
+        color: #444;
+    }
+}
+
+/*==================================================
+ ノート全体の設定
+==================================================*/
+.wrap {
+    width: calc(100% - 70px);
+    margin: 10px;
+    border-radius: 15px;
+    background-color: inherit;
+    position: relative;
+    left: 50px;
+    z-index: 2;
+    cursor: url(../img/pencil32.png) 0 32, auto;
+}
+
+/*==================================================
+ リングホールの設定
+==================================================*/
+/* リングホールの位置 */
+.dots {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    list-style: none;
+
+    /* リングホールのサイズ */
+    & li {
+        font-size: 32px;
+
+        /* リングホール大のサイズ */
+        &:nth-child(9n) {
+            font-size: 48px;
+            transform: translateX(-8px);
+        }
+    }
+}
+
+/*==================================================
+ 付箋の設定
+==================================================*/
+.sticky {
+    width: 70px;
+    height: 14%;
+    border-radius: 13px 0 0 13px;
+    position: absolute;
+    left: -40px;
+    z-index: 1;
+
+    /*==================================================
+     付箋の白い部分の設定
+    ==================================================*/
+    .inner {
+        width: 40px;
+        height: 100%;
+        border: 5px solid #fff;
+        border-radius: 9px 0 0 9px;
+        background-color: #fff;
+        position: absolute;
+        top: -0.5px;
+        left: 0px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        writing-mode: vertical-lr;
+        z-index: 1;
+    }
+}
+
+/*==================================================
+ 付箋の個別設定
+==================================================*/
+/* 付箋1のデフォルト設定 */
+.sticky.no1 {
+    z-index: 3;
+}
+
+@mixin sticky-style($top, $color) {
+    top: $top;
+    border: 5px solid $color;
+    background-color: $color;
+}
+
+.no1 {
+    @include sticky-style(5%, #f00);
+}
+
+.no2 {
+    @include sticky-style(19.5%, #ffa500);
+}
+
+.no3 {
+    @include sticky-style(34%, #ff0);
+}
+
+.no4 {
+    @include sticky-style(48.5%, #080);
+}
+
+.no5 {
+    @include sticky-style(63%, #0ff);
+}
+
+.no6 {
+    @include sticky-style(77.5%, #00f);
+}
+
+.no7 {
+    @include sticky-style(92%, #800080);
+}
+
+/*==================================================
+ノートの設定
+==================================================*/
+.note {
+    width: calc(100% - 2px);
+    padding: 20px 60px;
+    border: 1px solid #888;
+    border-radius: 15px 15px 0 0;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+/*==================================================
+ ノートの見出し、日付の設定
+==================================================*/
+/* ノートの見出し、日付の全体設定 */
+.headline {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    position: relative;
+
+    /* 日付のスタイル、罫線 */
+    .date {
+        float: right;
+        margin: 20px 0;
+        padding: 0 10px;
+        border-bottom: 2px solid #ccc;
+        background-color: #fff;
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 22px;
+        line-height: 1.5;
+    }
+}
+
+/* 見出しテキストのスタイル */
+h1,
+h2 {
+    width: fit-content;
+    font-size: 48px;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+}
+
+/* 見出しの下罫線のスタイル */
+h1::after,
+h2::after {
+    content: "";
+    height: 4px;
+    background-color: #ccc;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+}
+
+/* 1ページ目の見出し下罫線の横幅 */
+h1::after {
+    width: 850px;
+}
+
+/* 2ページ目以降の見出し下罫線の横幅 */
+h2::after {
+    width: 500px;
+}
+
+/*==================================================
+ ノートの記述部分の設定
+==================================================*/
+/* ノートの記述部分のスタイル */
+.text {
+    width: 100%;
+    height: calc(100vh - 140px);
+    background-color: #fff;
+    background-image: linear-gradient(0deg,
+            rgba(204, 204, 204, 0) 0%,
+            rgba(204, 204, 204, 0) 97%,
+            rgba(204, 204, 204, 1) 100%);
+    background-size: 100% 2.5rem;
+    position: relative;
+    text-align: left;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    line-height: 2.5rem;
+
+    /* 上罫線 */
+    &::before {
+        content: "";
+        width: 100%;
+        height: 0.5px;
+        border: 2px solid #ccc;
+        border-left: none;
+        border-right: none;
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+
+    /* 本文 */
+    & span {
+        padding: 0 10px;
+        position: absolute;
+        top: 5px;
+    }
+
+}
+
+/* ページ切り替えのためのCSS */
+.page {
+    width: 100%;
+    display: none;
+    position: relative;
+
+    /* ページ内のフロートを解除 */
+    &::after {
+        clear: both;
+    }
+
+    /* デフォルトページを設定 */
+    &.p1 {
+        display: block;
+    }
+}
+
+/*==================================================
+ 以下個別の設定
+==================================================*/
+/* 画像のサイズ設定 */
+img {
+    width: 40vw;
+    max-height: 60vh;
+    background-size: contain;
+    border: 4px solid #444;
+    margin: 10px;
+}
+
+/* 奇数ページの写真位置とマージン */
+.p1 img,
+.p3 img,
+.p5 img,
+.p7 img {
+    float: left;
+    margin-right: 30px;
+}
+
+/* 偶数ページの写真位置とマージン */
+.p2 img,
+.p4 img,
+.p6 img {
+    float: right;
+    margin-left: 30px;
+}
+
+/* 重要部分のアクセント */
+.marker {
+    width: fit-content;
+    background: linear-gradient(to bottom,
+            rgba(255, 239, 32, 0) 0%,
+            rgba(255, 239, 32, 0) 60%,
+            rgba(255, 239, 32, 0.5) 100%);
+    height: 3rem;
+}

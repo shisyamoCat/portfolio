@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio_02</title>
+
+    <link rel="stylesheet" href="../css/portfolio_02.css">
+    <script src="../js/jquery-3-6-0.js"></script>
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>
+                <span>
+                    ポンドとかヤードとか分かりにくくない？
+                    <img src="../img/pien.png" alt="ぴえん">
+                    <br>
+                    計算機
+                </span>
+            </h1>
+        </div>
+    </header>
+
+    <section id="pound" class="container">
+        <h2>
+            ポンド
+            <img src="../img/pien.png" alt="ぴえん">
+            ？
+            オンス
+            <img src="../img/pien.png" alt="ぴえん">
+            ？
+            <br>
+            グラムだといくら？
+        </h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="3">ポンド/オンス　→　キログラム/グラム</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>キログラム換算</td>
+                    <td>グラム換算</td>
+                </tr>
+                <tr>
+                    <th>
+                        <input id="weight-form" type="number" min="0" onchange="toGram()">
+                        <select id="weight-unit" name="unit" onchange="toGram()">
+                            <option value="lb">ポンド</option>
+                            <option value="ounces">オンス</option>
+                        </select>
+                    </th>
+                    <td><span id="kg"></span>kg</td>
+                    <td><span id="g"></span>g</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>1ポンド = 0.45359237キログラム</p>
+        <p>1オンス = 1/16ポンド</p>
+    </section>
+
+    <section id="meter" class="container">
+        <h2>
+            ヤード
+            <img src="../img/pien.png" alt="ぴえん">
+            ？
+            フィート
+            <img src="../img/pien.png" alt="ぴえん">
+            ？
+            インチ
+            <img src="../img/pien.png" alt="ぴえん">
+            ？
+            <br>
+            メートルだといくら？
+        </h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="4">ヤード/フィート/インチ　→　メートル/センチ/ミリメートル</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>メートル換算</td>
+                    <td>センチ換算</td>
+                    <td>ミリメートル換算</td>
+                </tr>
+                <tr>
+                    <th>
+                        <input id="length-form" type="number" value="" min="0" onchange="toMeter()">
+                        <select id="length-unit" name="unit" onchange="toMeter()">
+                            <option value="yard">ヤード</option>
+                            <option value="feet">フィート</option>
+                            <option value="inch">インチ</option>
+                        </select>
+                    </th>
+                    <td><span id="m"></span>m</td>
+                    <td><span id="cm"></span>cm</td>
+                    <td><span id="mm"></span>mm</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>1ヤード = 0.9144メートル</p>
+        <p>1フィート = 1/3ヤード</p>
+        <p>1インチ = 1/12フィート</p>
+    </section>
+
+    <script>
+        function round(value, unit) {
+            let base = 10;
+            base **= unit;
+            return Math.round(value * base) / base;
+        }
+
+
+        function toGram() {
+            let weight_form = document.getElementById("weight-form");
+            let weight_unit = document.getElementById("weight-unit");
+
+            if (weight_form.value != "") {
+                let kg = document.getElementById("kg");
+                let g = document.getElementById("g");
+                let ans = weight_form.value * 0.45359237;
+
+                if (weight_unit.value == "ounces") {
+                    ans /= 16;
+                }
+
+                kg.innerHTML = round(ans, 3).toLocaleString();
+                g.innerHTML = round(ans * 1000, 3).toLocaleString();
+            }
+        }
+
+        function toMeter() {
+            let length_form = document.getElementById("length-form");
+            let length_unit = document.getElementById("length-unit");
+
+            if (length_form.value != "") {
+                let m = document.getElementById("m");
+                let cm = document.getElementById("cm");
+                let mm = document.getElementById("mm");
+                let ans = length_form.value * 0.9144;
+
+                if (length_unit.value == "feet") {
+                    ans /= 3;
+                }
+                if (length_unit.value == "inch") {
+                    ans /= 36;
+                }
+
+                m.innerHTML = round(ans, 4).toLocaleString();;
+                cm.innerHTML = round(ans * 100, 4).toLocaleString();;
+                mm.innerHTML = round(ans * 1000, 4).toLocaleString();;
+            }
+        }
+
+        let weight = document.getElementById("weight-form");
+        let length = document.getElementById("length-form");
+
+        weight.addEventListener("keyup", toGram);
+        length.addEventListener("keyup", toMeter);
+    </script>
+</body>
+
+</html>

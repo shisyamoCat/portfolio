@@ -1,0 +1,304 @@
+@import url(./reboot.css);
+@import url(./format.css);
+@font-face {
+  font-family: "base";
+  src: url(../font/NotoSansJP-Regular.otf);
+}
+
+@font-face {
+  font-family: "round";
+  src: url(../font/MPLUSRounded1c-Regular.ttf);
+}
+
+@font-face {
+  font-family: "lime";
+  src: url(../font/Limelight-Regular.ttf);
+}
+
+.center {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-margin-top: 100px;
+}
+
+body {
+  background-color: #f4f5f7;
+  color: #444;
+  font-family: "base";
+  line-height: 1.5;
+}
+
+article {
+  margin-bottom: 100px;
+}
+
+article p,
+article a {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-family: "lime";
+}
+
+h1 {
+  margin: 160px auto 100px;
+  position: relative;
+  text-align: center;
+}
+
+h1::before, h1::after {
+  content: "";
+  width: 10%;
+  height: 4px;
+  position: absolute;
+  top: calc(50% - 2px);
+}
+
+h1::before {
+  background: -webkit-gradient(linear, right top, left top, color-stop(40%, #444), to(#f4f5f7));
+  background: linear-gradient(-90deg, #444 40%, #f4f5f7);
+  left: 0;
+}
+
+h1::after {
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, #444), to(#f4f5f7));
+  background: linear-gradient(90deg, #444 40%, #f4f5f7);
+  right: 0;
+}
+
+h1 span {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #f4f5f7;
+  display: inline-block;
+  -webkit-transition: 0.1s ease-in-out all;
+  transition: 0.1s ease-in-out all;
+}
+
+h1 span:hover {
+  color: #99ccff;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+h1 .hide-br {
+  display: none;
+}
+
+h2 {
+  padding: 5px 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#99ccff), to(#f4f5f7));
+  background: linear-gradient(90deg, #99ccff, #f4f5f7);
+  color: #fff;
+  text-shadow: 3px 3px 2px #444;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+}
+
+h2:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#99cccc), to(#f4f5f7));
+  background: linear-gradient(90deg, #99cccc, #f4f5f7);
+  color: #444;
+  text-shadow: 3px 3px 1px #fff;
+}
+
+h2::first-letter {
+  font-size: 150%;
+}
+
+#header {
+  width: 100%;
+  background-color: rgba(153, 204, 255, 0.75);
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+#header .container50 {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .container50 a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, white));
+  background-image: linear-gradient(to right, transparent 50%, white 50%);
+  background-size: 201% auto;
+  background-position: 0 0;
+  position: relative;
+  color: #fff;
+  text-shadow: 3px 3px 2px #444;
+  font-family: "lime";
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  -webkit-transition: 0.2s ease-in-out all;
+  transition: 0.2s ease-in-out all;
+}
+
+#header .container50 a:hover {
+  border-color: #fff;
+  background-position: -99% 0;
+  color: #99ccff;
+  text-shadow: 1px 1px 3px #444;
+}
+
+#main #about,
+#main #bio,
+#main #works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main #about h2,
+#main #bio h2,
+#main #works h2 {
+  width: 30%;
+}
+
+#main #about .right-column,
+#main #bio .right-column,
+#main #works .right-column {
+  width: 70%;
+}
+
+#main ul {
+  list-style: none;
+}
+
+#main #bio h2 {
+  background: -webkit-gradient(linear, right top, left top, from(#99ccff), to(#f4f5f7));
+  background: linear-gradient(-90deg, #99ccff, #f4f5f7);
+  text-align: right;
+}
+
+#main #bio h2:hover {
+  background: -webkit-gradient(linear, right top, left top, from(#99cccc), to(#f4f5f7));
+  background: linear-gradient(-90deg, #99cccc, #f4f5f7);
+  color: #444;
+  text-shadow: 3px 3px 1px #fff;
+}
+
+#main #work .work {
+  font-size: 24px;
+}
+
+#main #work p {
+  padding-left: 2rem;
+}
+
+#footer {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px 0;
+  background-color: #99cccc;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #99ccff), to(#f4f5f7));
+  background: linear-gradient(0deg, #99ccff 60%, #f4f5f7);
+  position: relative;
+}
+
+#footer .contact {
+  background: transparent;
+  font-size: 3.2rem;
+}
+
+#footer .mail {
+  font-size: 1.6rem;
+  font-family: "lime";
+}
+
+#footer .back-top {
+  width: 100px;
+  height: 100px;
+  background: url(../img/down.svg) 0 0 no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#footer .back-top:hover {
+  -webkit-animation: backtop-anime 2s ease infinite;
+          animation: backtop-anime 2s ease infinite;
+}
+
+@-webkit-keyframes backtop-anime {
+  0% {
+    -webkit-transform: rotate(180deg) translateY(0);
+            transform: rotate(180deg) translateY(0);
+  }
+  12.5% {
+    -webkit-transform: rotate(180deg) translateY(10%);
+            transform: rotate(180deg) translateY(10%);
+  }
+  25% {
+    -webkit-transform: rotate(180deg) translateY(0);
+            transform: rotate(180deg) translateY(0);
+  }
+  37.5% {
+    -webkit-transform: rotate(180deg) translateY(10%);
+            transform: rotate(180deg) translateY(10%);
+  }
+  50% {
+    -webkit-transform: rotate(180deg) translateY(0);
+            transform: rotate(180deg) translateY(0);
+  }
+}
+
+@keyframes backtop-anime {
+  0% {
+    -webkit-transform: rotate(180deg) translateY(0);
+            transform: rotate(180deg) translateY(0);
+  }
+  12.5% {
+    -webkit-transform: rotate(180deg) translateY(10%);
+            transform: rotate(180deg) translateY(10%);
+  }
+  25% {
+    -webkit-transform: rotate(180deg) translateY(0);
+            transform: rotate(180deg) translateY(0);
+  }
+  37.5% {
+    -webkit-transform: rotate(180deg) translateY(10%);
+            transform: rotate(180deg) translateY(10%);
+  }
+  50% {
+    -webkit-transform: rotate(180deg) translateY(0);
+            transform: rotate(180deg) translateY(0);
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  h1 .hide-br {
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */

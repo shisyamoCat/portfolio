@@ -1,0 +1,1766 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ | RENOTE [リノート]</title>
+<meta name="description" content="「ファイナルファンタジーIV ジ・アフター -月の帰還-」（FF4TA）とは、スクウェア・エニックスより配信・発売されたロールプレイングゲーム（RPG）。 元は携帯アプリとして配信され、その後スマホ版も配信され、携帯ゲーム機用ソフトとしても発売された。 FF4の主人公セシルの息子セオドアが主役となり、かつての仲間と共に世界の危機を救う旅に出る。">
+<meta name="keywords" content="ゲーム, ファイナルファンタジーIV ジ・アフター -月の帰還-, FINAL FANTASY IV THE AFTER, FFIVTA, FF4TA">
+<link rel="canonical" href="https://renote.jp/articles/10059">
+<link rel="next" href="https://renote.jp/articles/10059/page/2">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://renote.jp/articles/10059">
+<meta property="og:image" content="https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaHpmIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--68c8deabcc1c53706dcca5df4f8b16dec342f611/unnamed.jpg">
+<meta property="og:site_name" content="RENOTE [リノート]">
+<meta property="og:description" content="「ファイナルファンタジーIV ジ・アフター -月の帰還-」（FF4TA）とは、スクウェア・エニックスより配信・発売されたロールプレイングゲーム（RPG）。 元は携帯アプリとして配信され、その後スマホ版も配信され、携帯ゲーム機用ソフトとしても発売された。 FF4の主人公セシルの息子セオドアが主役となり、かつての仲間と共に世界の危機を救う旅に出る。">
+<meta property="fb:app_id" content="416180415230154">
+<meta property="article:publisher" content="https://www.facebook.com/renote.official">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@renote_official">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="_l3hMcTP8YNhsZcZuAvrde3aJVsElAT7vqQ0lPBuISSzMhQiTMvwWhZlAQ-YzzyAr5skTPfCMdWo25glXtEG6Q" />
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="apple-mobile-web-app-title" content="RENOTE">
+    <meta name="application-name" content="RENOTE">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://renote.jp/feed.rss" />
+
+    <link rel="stylesheet" media="all" href="/assets/application-c8d2353a694f939562d3b2a0ee4088f7145ad2b89a6b28f858b400b9c18df6f7.css" />
+
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-P2D6WRH');</script>
+      <!-- End Google Tag Manager -->
+
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8715201533828464" crossorigin="anonymous"></script>
+
+        <!-- DFP head -->
+        <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+        <script>
+          window.googletag = window.googletag || {cmd: []};
+          googletag.cmd.push(function() {
+  
+        googletag.defineSlot('/62532913,21663238038/p_renote.pc_728x90_header_18152', [[728, 90], [970, 250]], 'div-gpt-ad-1567392847143-0').addService(googletag.pubads());
+
+                  googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_under-intro1_18152', [[336, 280], [300, 250]], 'div-gpt-ad-1567392558088-0').addService(googletag.pubads());
+
+                  googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_under-intro2_18152', [[300, 250], [336, 280]], 'div-gpt-ad-1567392634211-0').addService(googletag.pubads());
+
+                        googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_InsideArticle1_18152', [[336, 280], [300, 250]], 'div-gpt-ad-1567391890338-0').addService(googletag.pubads());
+
+                        googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_InsideArticle2_18152', [[300, 250], [336, 280]], 'div-gpt-ad-1567392133213-0').addService(googletag.pubads());
+
+                        googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_kijinaka-3_18152', [[300, 250], [336, 280]], 'div-gpt-ad-1567392196855-0').addService(googletag.pubads());
+
+                        googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_kijinaka-4_18152', [[300, 250], [336, 280]], 'div-gpt-ad-1567392258454-0').addService(googletag.pubads());
+
+                        googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_kijinaka-5_18152', [[300, 250], [336, 280]], 'div-gpt-ad-1567392351779-0').addService(googletag.pubads());
+
+                        googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_kijinaka-6_18152', [[336, 280], [300, 250]], 'div-gpt-ad-1567392410984-0').addService(googletag.pubads());
+
+                        googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_footerlist1_18152', [[300, 250], [336, 280]], 'div-gpt-ad-1567391481799-0').addService(googletag.pubads());
+
+                        googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_footerlist2_18152', [[300, 250], [336, 280]], 'div-gpt-ad-1567391785231-0').addService(googletag.pubads());
+
+                  googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_pager-shita1_18152', [[336, 280], [300, 250]], 'div-gpt-ad-1567392447894-0').addService(googletag.pubads());
+
+                  googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_pager-shita2_18152', [[300, 250], [336, 280]], 'div-gpt-ad-1567392510037-0').addService(googletag.pubads());
+
+              googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x250_right1_18152', [300, 250], 'div-gpt-ad-1575427478215-0').addService(googletag.pubads());
+
+            googletag.defineSlot('/62532913,21663238038/p_renote.pc_300x600_right_18152', [[300, 250], [300, 600]], 'div-gpt-ad-1567392685458-0').addService(googletag.pubads());
+
+            googletag.defineSlot('/62532913,21663238038/p_renote.pc_728x90_belowrecommend_18152', [[970, 250], [728, 90]], 'div-gpt-ad-1567595441764-0').addService(googletag.pubads());
+
+
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().disableInitialLoad();
+  googletag.enableServices();
+});
+
+        </script>
+        <!-- /DFP head -->
+
+        <!-- Define callback function -->
+        <script type="text/javascript">
+          var readyBids = {
+            prebid: false,
+            google: false
+          };
+          var failSafeTimeout = 3e3;
+          // when both APS and Prebid have returned, initiate ad request
+          var launchAdServer = function () {
+            if (!readyBids.prebid) {
+              return;
+            }
+            requestAdServer();
+          };
+          var requestAdServer = function () {
+            if (!readyBids.google) {
+              readyBids.google = true;
+              googletag.cmd.push(function () {
+                pbjs.que.push(function () {
+                  pbjs.setTargetingForGPTAsync();
+                });
+                googletag.pubads().refresh();
+              });
+            }
+          };
+        </script>
+        <!-- /Define callback function -->
+
+        <!-- FLUX head -->
+        <script async src="https://flux-cdn.com/client/doubledown/flux_renote_AS.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+          var pbjs = pbjs || {};
+          pbjs.que = pbjs.que || [];
+        </script>
+        <!-- /FLUX head -->
+
+        <script>
+          // set failsafe timeout
+          setTimeout(function () {
+            requestAdServer();
+          }, failSafeTimeout);
+        </script>
+      <meta name="twitter:widgets:csp" content="on">
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <script>
+      var unruly = window.unruly || {};
+      unruly.native = unruly.native || {};
+      unruly.native.siteId = 1100883
+    </script>
+    <script src="//video.unrulymedia.com/native/native-loader.js"></script>
+
+
+  </head>
+
+  <body class="articles_show">
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2D6WRH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      <script>
+        window.impactifyTag = window.impactifyTag || [];
+        impactifyTag.push({
+          "appId": "renote.jp",
+          "format": "screen",
+          "style": "impact",
+          "onNoAd": function(){}
+        });
+        (function(d, s, id) {
+          var js, ijs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://ad.impactify.io/static/ad/tag.js';
+          ijs.parentNode.insertBefore(js, ijs);
+        }(document, 'script', 'impactify-sdk'));
+      </script>
+    <div class="base__container">
+        <header class="header">
+    <div class="container header__inner">
+      <div class="header__logo">
+        <a href="https://renote.jp/"><img loading="lazy" decoding="async" class="header__logo__img" alt="RENOTE [リノート]" width="380" height="300" src="/assets/logo-5688eb3a2f68a41587a2fb8689fbbe2895080c67a7a472e9e76c994871d89e83.png" /></a>
+</div>      <div class="header__content">
+        <div class="header__nav-container">
+          <ul class="header__nav__menu">
+            <li class="header__nav__menu-item menu-item-has-children">
+              <a href="javascript:void(0)">Category</a>
+              <ul class="sub-menu">
+                  <li class="header__nav__menu-subitem">
+                    <a href="/categories/anime-manga">アニメ・漫画（マンガ）</a>
+                  </li>
+                  <li class="header__nav__menu-subitem">
+                    <a href="/categories/game">ゲーム</a>
+                  </li>
+                  <li class="header__nav__menu-subitem">
+                    <a href="/categories/music">音楽</a>
+                  </li>
+                  <li class="header__nav__menu-subitem">
+                    <a href="/categories/movie">映画</a>
+                  </li>
+                  <li class="header__nav__menu-subitem">
+                    <a href="/categories/tv">テレビ</a>
+                  </li>
+                  <li class="header__nav__menu-subitem">
+                    <a href="/categories/entertainment">その他エンタメ</a>
+                  </li>
+              </ul>
+            </li>
+            <li class="header__nav__menu-item menu-item-has-children">
+              <a href="javascript:void(0)">User Menu</a>
+              <ul class="sub-menu">
+                <li class="header__nav__menu-subitem article__edit__link">
+                  <a href="/articles/new">記事作成</a>
+                </li>
+                  <li class="header__nav__menu-subitem">
+                    <a href="/users/register">ユーザー登録</a>
+                  </li>
+                  <li class="header__nav__menu-subitem">
+                    <a href="/login">ログイン</a>
+                  </li>
+              </ul>
+            </li>
+              <li class="header__nav__menu-item">
+                  <a target="_blank" rel="noopener" href="https://twitter.com/renote_official">
+                    <i class="fab fa-twitter fa-fw header__nav__menu-icon"></i><span class="header__nav__menu-icon-name">Twitter</span>
+</a>              </li>
+              <li class="header__nav__menu-item">
+                  <a target="_blank" rel="noopener" href="https://www.facebook.com/renote.official">
+                    <i class="fab fa-facebook-f fa-fw header__nav__menu-icon"></i><span class="header__nav__menu-icon-name">Facebook</span>
+</a>              </li>
+              <li class="header__nav__menu-item">
+                  <a target="_blank" rel="noopener" href="https://renote.jp/feed.rss">
+                    <i class="fas fa-rss fa-fw header__nav__menu-icon"></i><span class="header__nav__menu-icon-name">RSS</span>
+</a>              </li>
+              <li class="header__nav__menu-item">
+                  <a target="_blank" rel="noopener" href="https://feedly.com/i/subscription/feed/https%3A%2F%2Frenote.jp%2Ffeed.rss">
+                    <i class="fa c-fa-feedly fa-fw header__nav__menu-icon"></i><span class="header__nav__menu-icon-name">Feedly</span>
+</a>              </li>
+            <li class="header__nav__menu-item menu-item-search">
+              <a id="js-search-unit-trigger" href="javascript:void(0)">
+                <i class="fas fa-search fa-fw header__nav__menu-icon"></i><span class="header__nav__menu-icon-name">Search</span>
+</a>              <div class="menu-item-search-box">
+                <div class="menu-item-search-box__inner">
+                  <form role="search" id="cse-search-box" class="menu-item-search-form" action="/pages/search" accept-charset="UTF-8" method="get">
+                    <input type="hidden" name="cx" value="018231999016116659654:pe26l0gybh4" autocomplete="off" />
+                    <input type="hidden" name="ie" value="UTF-8" autocomplete="off" />
+                    <label class="menu-item-search-input-label">
+                      <input type="search" name="q" id="q" placeholder="検索キーワードを入力" class="menu-item-search-input" />
+                    </label>
+</form>                  <script type="text/javascript" src="//www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__mobile-toggle" id="js-header__mobile-toggle">
+        <div class="header__mobile-toggle-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+      <div class="bg__container">
+        <div class="bg__cover">
+              <div class="bg__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaHpmIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--68c8deabcc1c53706dcca5df4f8b16dec342f611/unnamed.jpg);"></div>
+
+        </div>
+      </div>
+
+      <div class="main__container">
+
+        
+    <div class="container breadcrumb__container white">
+      <div class="breadcrumb__inner">
+    <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="https://renote.jp/">
+            <span itemprop="name">RENOTE</span>
+</a>          <meta itemprop="position" content="1" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="https://renote.jp/categories/game">
+            <span itemprop="name">ゲーム</span>
+</a>          <meta itemprop="position" content="2" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="https://renote.jp/tags/13124">
+            <span itemprop="name">スクウェア・エニックス / SQUARE ENIX / スクエニ / SQEX / スクウェア / エニックス</span>
+</a>          <meta itemprop="position" content="3" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="https://renote.jp/tags/5417">
+            <span itemprop="name">ファイナルファンタジーIV ジ・アフター -月の帰還- / FINAL FANTASY IV THE AFTER / FFIVTA / FF4TA</span>
+</a>          <meta itemprop="position" content="4" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="https://renote.jp/articles/10059">
+            <span itemprop="name">ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ</span>
+</a>          <meta itemprop="position" content="5" />
+        </li>
+    </ol>
+    <ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="https://renote.jp/">
+            <span itemprop="name">RENOTE</span>
+</a>          <meta itemprop="position" content="1" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="https://renote.jp/categories/game">
+            <span itemprop="name">ゲーム</span>
+</a>          <meta itemprop="position" content="2" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="https://renote.jp/tags/542">
+            <span itemprop="name">ファイナルファンタジーシリーズ / FINAL FANTASYシリーズ / FFシリーズ</span>
+</a>          <meta itemprop="position" content="3" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="https://renote.jp/tags/5417">
+            <span itemprop="name">ファイナルファンタジーIV ジ・アフター -月の帰還- / FINAL FANTASY IV THE AFTER / FFIVTA / FF4TA</span>
+</a>          <meta itemprop="position" content="4" />
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="https://renote.jp/articles/10059">
+            <span itemprop="name">ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ</span>
+</a>          <meta itemprop="position" content="5" />
+        </li>
+    </ol>
+</div>
+
+    </div>
+
+
+        <div class="inner__content">
+          
+
+
+
+
+
+
+
+
+  <div class="container article__billboard__ad__container">
+    <div class="ad__billboard">
+  <!-- /62532913,21663238038/p_renote.pc_728x90_header_18152 -->
+  <div id="div-gpt-ad-1567392847143-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392847143-0'); });
+    </script>
+  </div>
+</div>
+
+  </div>
+<div class="container article__container">
+  <div class="article__main__container">
+    <div class="article__main__inner">
+      <h1 class="article__main__title">ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ</h1>
+      <div class="article__additional__data">
+        <time class="article__date" datetime="2021-11-17">
+          2021.11.17
+</time>      </div>
+        <div class="article__main__img">
+          <img loading="lazy" decoding="async" width="1280" height="800" src="https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaHpmIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--68c8deabcc1c53706dcca5df4f8b16dec342f611/unnamed.jpg" />
+          <div class="article__main__img-bg" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaHpmIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--68c8deabcc1c53706dcca5df4f8b16dec342f611/unnamed.jpg);"></div>
+          <div class="article__main__img__inner">
+            <span class="article__main__img__inner-category" data-category="game"></span>
+            <span class="article__main__img__inner-type" data-type="Parent"></span>
+            <span class="article__main__img__inner-copyright" data-copyright="© 2008 スクウェア・エニックス"></span>
+          </div>
+        </div>
+        <p class="article__main__description">
+          「ファイナルファンタジーIV ジ・アフター -月の帰還-」（FF4TA）とは、スクウェア・エニックスより配信・発売されたロールプレイングゲーム（RPG）。<br>元は携帯アプリとして配信され、その後スマホ版も配信され、携帯ゲーム機用ソフトとしても発売された。<br>FF4の主人公セシルの息子セオドアが主役となり、かつての仲間と共に世界の危機を救う旅に出る。
+        </p>
+      <ul class="article__sns__list top">
+            <li class="article__sns__list-item">
+      <a class="twitter" rel="nofollow noopener" target="_blank" href="https://twitter.com/intent/tweet?text=ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ&amp;url=https%3A%2F%2Frenote.jp%2Farticles%2F10059&amp;hashtags=RENOTE&amp;via=renote_official&amp;related=renote_official"><i class="fab fa-twitter"></i></a>
+    </li>
+    <li class="article__sns__list-item">
+      <a class="facebook" rel="nofollow noopener" target="_blank" onclick="window.open(this.href, &#39;fb-window&#39;, &#39;width=650, height=450, menubar=no, toolbar=no, scrollbars=yes&#39;); return false;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frenote.jp%2Farticles%2F10059"><i class="fab fa-facebook-f"></i></a>
+    </li>
+    <li class="article__sns__list-item">
+      <a class="hatebu" rel="nofollow noopener" target="_blank" href="http://b.hatena.ne.jp/add?mode=confirm&amp;url=https%3A%2F%2Frenote.jp%2Farticles%2F10059&amp;title=ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ"><i class="fa c-fa-hatebu"></i></a>
+    </li>
+    <li class="article__sns__list-item">
+      <a class="line" rel="nofollow noopener" target="_blank" href="http://line.me/R/msg/text/?ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ%0D%0Ahttps%3A%2F%2Frenote.jp%2Farticles%2F10059"><i class="fa c-fa-line"></i></a>
+    </li>
+    <li class="article__sns__list-item">
+      <a class="get-pocket" rel="nofollow noopener" target="_blank" onclick="window.open(this.href, &#39;get-pocket-window&#39;, &#39;width=550, height=350, menubar=no, toolbar=no, scrollbars=yes&#39;); return false;" href="http://getpocket.com/edit?url=https%3A%2F%2Frenote.jp%2Farticles%2F10059&amp;title=ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ"><i class="fab fa-get-pocket"></i></a>
+    </li>
+
+      </ul>
+        <div class="article__upper__bit__container">
+          <div class="ad__bit">
+  <script>
+    (function() {
+      var opts = {
+        artist: "",
+        song: "",
+        detect_artist: true,
+        adunit_id: 100001717,
+        div_id: "cf_async_" + Math.floor((Math.random() * 999999999))
+      };
+      document.write('<div id="'+opts.div_id+'"></div>');var c=function(){cf.showAsyncAd(opts)};if(typeof window.cf !== 'undefined')c();else{cf_async=!0;var r=document.createElement("script"),s=document.getElementsByTagName("script")[0];r.async=!0;r.src="//srv.clickfuse.com/showads/showad.js";r.readyState?r.onreadystatechange=function(){if("loaded"==r.readyState||"complete"==r.readyState)r.onreadystatechange=null,c()}:r.onload=c;s.parentNode.insertBefore(r,s)};
+    })();
+  </script>
+</div>
+
+        </div>
+        <div class="article__upper__middle__ad__container">
+              <div class="left__ad">
+                <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_under-intro1_18152 -->
+  <div id="div-gpt-ad-1567392558088-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392558088-0'); });
+    </script>
+  </div>
+</div>
+
+              </div>
+              <div class="right__ad">
+                <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_under-intro2_18152 -->
+  <div id="div-gpt-ad-1567392634211-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392634211-0'); });
+    </script>
+  </div>
+</div>
+
+              </div>
+        </div>
+      <div class="article__body">
+          
+            <h2 id="article__item__220476" class="article__item primary item__type--heading-item item__sequence__1">
+  <span>『ファイナルファンタジーIV ジ・アフター -月の帰還-』の概要</span>
+</h2>
+
+            <div id="article__item__220872" class="article__item item__type--image-item item__sequence__2">
+  <div class="item__type--image-item-main">
+    <div class="item__type--image-item-img-outer">
+      <img loading="lazy" decoding="async" width="1280" height="1024" src="https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbGJmIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--57ce4528451f5753f2e5630a115e15a468de71c3/ff4-the-after-years-wallpaper-4.jpg" />
+      <span class="item__type--image-item-copyright" data-copyright="© 2008 スクウェア・エニックス"></span>
+    </div>
+  </div>
+    <div class="item__type--image-item-caption">
+        <p class="item__type--image-item-description"><i class="fas fa-arrow-circle-up"></i> メインストーリーはセオドア編とカイン編からなる。</p>
+    </div>
+</div>
+
+            <p id="article__item__220495" class="article__item item__type--text-item item__sequence__3">
+  ファイナルファンタジーⅣ ジ・アフター -月の帰還-（FF4TA）は、ファイナルファンタジーⅣ（FF4）のエンディングから十数年後の世界が舞台となり、FF4の正式な続編である。<br>FF4TA には過去の FF4のシーンを再現した演出が多数盛り込まれている。<br><br>「ファイナルファンタジーIV ジ・アフター -月の帰還-」は、2008年に携帯電話のアプリとして配信され、累計450万のダウンロード販売を記録した。<br>翌年には、Wiiウェア版として「ファイナルファンタジーIV ジ・アフターイヤーズ -月の帰還-」に改題され、配信開始となった。<br>2011年には、前作FF4とジ・アフターの2作を繋ぐシナリオ「Interlude」や、ギャラリーモードが追加収録されたPlayStation Portable用ソフト『ファイナルファンタジーIV コンプリートコレクション』が発売された。<br>2013年にはスマートフォン版が配信、2015年にはWindowsに移植され、Steamで配信されている。<br><br>FF4TAは、独立したシナリオを個別にクリアしていくオムニバス形式。<br>FF4のメインキャラクターらが各シナリオの主役として登場し、今作からの新キャラクターらも登場する。<br>各シナリオはアイテムやキャラクターレベルもそれぞれ別になっており、またセーブデータも個別に保存される。<br>各シナリオのデータは最終的に、最後のシナリオで統合される。<br><br>メインストーリーは、セオドア編から始まり、他のキャラクターのシナリオをクリアしてカイン編へと進めていく。<br>各シナリオのキャラクターたちは集結編から合流することになり、終章へとつながっていく。<br><br>バロン王国の王子セオドアは、飛空艇団『赤き翼』の新米兵士として、試練に挑戦するため旅に出ていた。<br>その頃、空に突然2つ目の月が現れ、それと同時にバロン王国は魔物に襲われる。<br>セオドアも乗っていた飛空艇が魔物に襲われて墜落してしまい、単身バロン王国を目指す。<br><br>セオドアの父・バロン国王セシルは、魔物と共に現れた謎の少女に襲われ操られてしまう。<br>謎の少女はセシルを操り、バロン王国の軍を世界各国に派遣する。<br>セシルのかつての仲間達もそれぞれの故郷で、バロン軍と共に現れた謎の少女に対峙するが、次々と敗れてしまい、彼らが守るクリスタルを謎の少女に奪われてしまう。<br>謎の少女の目的はこの星のクリスタルを集めることで、彼女の主は突如現れた2つ目の月『真月』にいるクリエイターと呼ばれる人物であった。
+</p>
+
+            <h2 id="article__item__220477" class="article__item primary item__type--heading-item item__sequence__4">
+  <span>世界観</span>
+</h2>
+
+            <div class="article__in__article__ad__container">
+                    <div class="left__ad">
+                      <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_InsideArticle1_18152 -->
+  <div id="div-gpt-ad-1567391890338-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567391890338-0'); });
+    </script>
+  </div>
+</div>
+
+                    </div>
+                    <div class="right__ad">
+                      <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_InsideArticle2_18152 -->
+  <div id="div-gpt-ad-1567392133213-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392133213-0'); });
+    </script>
+  </div>
+</div>
+
+                    </div>
+            </div>
+            <h3 id="article__item__220686" class="article__item secondary item__type--heading-item item__sequence__5">
+  <span>バロン王国と『赤き翼』</span>
+</h3>
+
+            <div id="article__item__220871" class="article__item item__type--image-item item__sequence__6">
+  <div class="item__type--image-item-main">
+    <div class="item__type--image-item-img-outer">
+      <img loading="lazy" decoding="async" width="670" height="364" src="https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbFhmIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1986dcb8c205ec7f810dc5f101ae9b6bd54319c2/101360.jpg" />
+      <span class="item__type--image-item-copyright" data-copyright="© 2008 スクウェア・エニックス"></span>
+    </div>
+  </div>
+    <div class="item__type--image-item-caption">
+        <p class="item__type--image-item-description"><i class="fas fa-arrow-circle-up"></i> バロンの誇る飛空艇団『赤き翼』</p>
+    </div>
+</div>
+
+            <p id="article__item__220722" class="article__item item__type--text-item item__sequence__7">
+  バロン王国とはFF4の世界にある最大の王国で、飛空艇団『赤き翼』（前作、およびPSP版では『赤い翼』）を擁する最強の軍事国家。<br><br>前作で殺害されたバロン王の後を継いでセシルが王となり、ローザと結婚して王子セオドアが誕生している。<br>ちなみにバロン王は、死後幻界に行き、召喚獣オーディンとして生まれ変わり、セシルを守護している。
+</p>
+
+            <h3 id="article__item__220714" class="article__item secondary item__type--heading-item item__sequence__8">
+  <span>2つの月</span>
+</h3>
+
+            <div class="article__in__article__ad__container">
+                    <div class="left__ad">
+                      <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_kijinaka-3_18152 -->
+  <div id="div-gpt-ad-1567392196855-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392196855-0'); });
+    </script>
+  </div>
+</div>
+
+                    </div>
+                    <div class="right__ad">
+                      <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_kijinaka-4_18152 -->
+  <div id="div-gpt-ad-1567392258454-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392258454-0'); });
+    </script>
+  </div>
+</div>
+
+                    </div>
+            </div>
+            <p id="article__item__220719" class="article__item item__type--text-item item__sequence__9">
+  主人公たちが暮らす『青き星』（地球）には2つの月があった。<br>実は2つ目の月は人工の月で、太古の昔ここへ移住してきた月の民たちが眠っていた。<br>月の民の中には『青き星』を焼き払って移住しようと企むゼムスと言う者の思念が残っており、月の民の血を引くゴルベーザを操り、『青き星』に戦乱をもたらした。<br>だが正気に戻ったゴルベーザは弟セシル達と共闘し、ゼムスおよびその残留思念ゼロムスを倒すと、この2つ目の月と共に『青き星』の軌道を外れ、どこかへ旅立っていった。<br><br>こうして『青き星』の月は1つだけとなっていた。<br>ところが、突如再び2つ目の巨大な月が現れることとなる。
+</p>
+
+            <h3 id="article__item__220688" class="article__item secondary item__type--heading-item item__sequence__10">
+  <span>バブイルの塔</span>
+</h3>
+
+            <p id="article__item__220713" class="article__item item__type--text-item item__sequence__11">
+  前作FF4で登場した機械仕掛けの要塞。内部にはもうひとつの月につながる次元エレベーターがあった。<br>地底から上空へ高くそびえる塔だが、誰がいつこの塔を作ったのかは語られていない。<br>FF4ではこの塔の地下にファルコン号が隠されていた。<br><br>今作では塔に異変が起こり、エッジ編で探索することになる。<br>実は、その異変の原因は謎の少女が世界各地から強奪したクリスタルを『真月』へ運ぶために次元エレベーターをつなげ、可動させたことから起こったのだった。
+</p>
+
+            <h3 id="article__item__220690" class="article__item secondary item__type--heading-item item__sequence__12">
+  <span>ファルコン号</span>
+</h3>
+
+            <div class="article__in__article__ad__container">
+                    <div class="left__ad">
+                      <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_kijinaka-5_18152 -->
+  <div id="div-gpt-ad-1567392351779-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392351779-0'); });
+    </script>
+  </div>
+</div>
+
+                    </div>
+                    <div class="right__ad">
+                      <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_kijinaka-6_18152 -->
+  <div id="div-gpt-ad-1567392410984-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392410984-0'); });
+    </script>
+  </div>
+</div>
+
+                    </div>
+            </div>
+            <p id="article__item__220700" class="article__item item__type--text-item item__sequence__13">
+  FF4から登場する飛空艇。<br>地底に隠されていたが、地底世界も飛べるようにシドが改造したもの。<br>今作では主人公たちのメインの飛空艇として登場するが、実際に操作できるのはリディア編と集結編のみ。
+</p>
+
+            <h2 id="article__item__220478" class="article__item primary item__type--heading-item item__sequence__14">
+  <span>『ファイナルファンタジーIV ジ・アフター -月の帰還-』のあらすじ・ストーリー</span>
+</h2>
+
+            <div id="article__item__221092" class="article__item item__type--image-item item__sequence__15">
+  <div class="item__type--image-item-main">
+    <div class="item__type--image-item-img-outer">
+      <img loading="lazy" decoding="async" width="1000" height="607" src="https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb25mIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cf9738c0e8897686d4bde60b49a2c0af2cafaf2e/61fad5a6.jpg" />
+      <span class="item__type--image-item-copyright" data-copyright="© 2008 スクウェア・エニックス"></span>
+    </div>
+  </div>
+    <div class="item__type--image-item-caption">
+        <p class="item__type--image-item-description"><i class="fas fa-arrow-circle-up"></i> 今作は前作のキャラの子供達の成長の物語でもある。</p>
+    </div>
+</div>
+
+            <p id="article__item__220528" class="article__item item__type--text-item item__sequence__16">
+  まず序章から始まり「セオドア編」をプレイする。<br>その後「リディア編」「ヤン編」「パロム編」「エッジ編」「ポロム編」「ギルバート編」の中から自由に選択してプレイできるようになる。<br>この6つのシナリオは、時系列的にはほぼ同時進行している物語であり、クリアする順番は自由だが、全てクリアしないと、次の「カイン編」に進むことは出来ない。<br><br>カイン編をクリアすると、「月の民編」へ、それをクリアすると最終章へと進める。<br>終章でこれまでの各シナリオのクリアデータが引き継がれ、各キャラクターの強さや所持アイテムなどがまとめられ、最後の戦いへと挑むこととなる。
+</p>
+
+            <div class="article__in__article__ad__container">
+                    <div class="left__ad">
+                      <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_footerlist1_18152 -->
+  <div id="div-gpt-ad-1567391481799-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567391481799-0'); });
+    </script>
+  </div>
+</div>
+
+                    </div>
+                    <div class="right__ad">
+                      <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_footerlist2_18152 -->
+  <div id="div-gpt-ad-1567391785231-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567391785231-0'); });
+    </script>
+  </div>
+</div>
+
+                    </div>
+            </div>
+            <h3 id="article__item__220529" class="article__item secondary item__type--heading-item item__sequence__17">
+  <span>序章『月の帰還』</span>
+</h3>
+
+            <p id="article__item__220793" class="article__item item__type--text-item item__sequence__18">
+  バロン国王セシルと王妃ローザの息子セオドアは騎士の試練を受けるために、飛空艇団『赤き翼』の新米兵士として飛空艇に乗っていた。<br>アダマン島での試練をこなし、飛空艇でバロン国へ帰還途中、大勢の魔物に襲われ墜落してしまう。<br>1人生き残ったセオドアは徒歩でバロンへ向かう。<br><br>同じ頃、バロンも魔物の襲撃を受けていた。<br><br>セシルはシド、ローザと共にバロン城内を駆けまわり、魔物を倒していた。<br>その最中、セシルはふと空を見上げる。<br>そこには2つの月が浮かんでいた。<br>驚くセシル。<br><br>かつてこの世界には2つの月があった。<br>しかし2つ目の月は、セシルの兄・ゴルベーザとともに軌道を離れ、何処かへ消えて行ったはずだった。<br>だが今、再び2つめの月が現れた。<br>セシルは魔物の来襲と関係があるのではと不吉な予兆を感じていた。
+</p>
+
+            <h3 id="article__item__220531" class="article__item secondary item__type--heading-item item__sequence__19">
+  <span>セオドア編『最後の赤き翼』</span>
+</h3>
+
+            <p id="article__item__220794" class="article__item item__type--text-item item__sequence__20">
+  バロン城は大勢の魔物に襲われ、セシルとローザ、シドは共に戦っていた。<br>しかし、劣勢だと感じたセシルは、ローザをシドと共に逃した。<br>城に1人残って戦っていたセシルは、突如現れたバハムートと謎の少女に敗北し、意識を奪われてしまう。<br><br>一方、バロンへ戻る途中に魔物に襲われ苦戦するセオドア。<br>彼を助けてくれたのは謎の金髪の男だった。<br>セオドアはバロンが魔物に襲われたことを金髪の男から告げられ、彼と共に急ぎバロンへと向かう。<br><br>バロンの町から城へ入ろうとすると、ゾンビと化した兵士が入り口を塞いでいるため、セオドアは水路からバロン城内に忍びこむことにした。<br><br>金髪の男は、必死に両親を探すセオドアから、彼がセシルとローザの息子であると聞き、驚いた様子を見せる。<br><br>城内の潜入に成功したセオドアと金髪の男は二手に分かれ、金髪の男は城内を進み玉座の間に向かう。<br>玉座にはセシルが座っていた。<br>金髪の男が声をかけると、セシルは冷たい態度を取るのだった。<br>そんなセシルに、お前は変わったな、と金髪の男は言い捨て、その場を後にする。<br>城内を見回っていたセオドアと合流した金髪の男は、兵士に怪しまれ、追われることになる。<br><br>セオドア達は城を脱出し、一旦バロンを後にした。<br>セオドアは何かと助けてくれる金髪の男に、何故そこまで助力してくれるのかと尋ねる。<br>金髪の男はセオドアのためでなく、自分にも目的があるからだと答えた。<br>彼は、命を賭けてでも倒さねばならない相手が居ると言い、その相手とは、バロンの元竜騎士だと言う。
+</p>
+
+            <h3 id="article__item__220532" class="article__item secondary item__type--heading-item item__sequence__21">
+  <span>カイン編『竜騎士の帰還』</span>
+</h3>
+
+            <p id="article__item__220810" class="article__item item__type--text-item item__sequence__22">
+  セオドアは行方不明の母ローザとシドのエンタープライズ号を探すため、金髪の男と共に各国を巡る旅に出る。<br>セオドア達がダムシアンへと向かった時、ダムシアン城がバロン国の飛空艇団『赤き翼』によって攻撃を受けているのを目撃する。<br><br>その頃ダムシアンでは、バロンの竜騎士カインがクリスタルを強奪しようとしていた。<br>クリスタルはこの星の生命の源である。<br>世界各地で守られていたはずの8つのクリスタルは次々と奪われており、ダムシアンにあるクリスタルが最後の1つだった。<br>ダムシアンの王ギルバートは、それを止めようと、バロンから避難してきたローザやシドと共にカインと戦う。<br>しかし2人は敗れ、カインはローザとクリスタルを奪って飛空艇でバロンへと去って行く。<br><br>カインの目的は、ローザの目の前でセシルを殺すことだと言う。<br>セオドア達とギルバートはシドのエンタープライズ号でカインの後を追う。<br><br>バロン城内でセオドア達はカインとローザに追いついた。<br>ローザはセオドアの隣にいた金髪の男を見て驚き、名前を呼んだ。<br>「カイン！」<br>セオドアと一緒にいた金髪の男はカインだった。<br>カインが2人いる、と混乱するローザ。<br><br>ローザを攫ったカインは、カインの心の闇が生み出した存在であった。<br>試練の山で、自分の闇と戦っている最中に闇のカインが実体を持ち外へ逃げ出し、カインはそれを倒そうと追っていたのだ。<br>カインは闇のカインと一騎打ちで倒し、聖なる力を得ることができた。<br>カインは竜騎士から聖竜騎士へと変わった。<br><br>カイン達は玉座の間に踏み込む。<br>玉座に座るセシルの側には謎の少女が立っていた。<br>座っていたセシルは突如立ち上がり、カインたちに剣を向ける。<br>どうやらセシルは謎の少女に操られているようだ。<br><br>カインはセシルに戦いを挑むも、セシルを相手に本気を出せず敗北してしまう。<br>カインを庇うセオドアに対し、セシルは罵倒する言葉を投げつける。<br><br>セシルは、カイン達にとどめを刺そうと、オーディンを召喚した。<br>しかし召喚されたオーディンはセシルには従わず、カイン達に「この大地を、セシルを頼む」と告げ、セシルを謎の少女の支配から解放し、去った。
+</p>
+
+            <h3 id="article__item__220534" class="article__item secondary item__type--heading-item item__sequence__23">
+  <span>リディア編『閉ざされた幻獣たち』</span>
+</h3>
+
+            <p id="article__item__220823" class="article__item item__type--text-item item__sequence__24">
+  リディアは前作の後、幻界の王から人間として暮らすようにと命じられ、ミストの村で暮らしていた。<br><br>久しぶりに幻界を訪れると、突如謎の少女が現れ、幻獣達を全て支配してしまう。<br>なんとか幻界を脱出したリディアは、異変を知らせようとドワーフの国へ向かうと、ドワーフ城が『赤き翼』に襲撃されているのを目撃する。<br>リディアはドワーフの王女ルカの協力を得て、城へ向かうが、謎の少女により闇のクリスタルが奪われてしまった。<br><br>『赤き翼』が来襲したことで、セシルに何かがあったのだと思い、リディア達はバロンへ行くことにする。<br>だが途中、謎の少女に操られた召喚獣タイタンに襲われる。<br>そこへ突如黒衣の男がどこからともなく現れ、リディア達を救う。<br><br>黒衣の男は、異様な光を放つ『バブイルの塔』を指し示す。<br>リディアと黒衣の男は、ルカのファルコン号に乗り、『バブイルの塔』を目指す。
+</p>
+
+      </div>
+        <div class="article__lower__bit__container">
+          <div class="ad__bit">
+  <script>
+    (function() {
+      var opts = {
+        artist: "",
+        song: "",
+        detect_artist: true,
+        adunit_id: 100001717,
+        div_id: "cf_async_" + Math.floor((Math.random() * 999999999))
+      };
+      document.write('<div id="'+opts.div_id+'"></div>');var c=function(){cf.showAsyncAd(opts)};if(typeof window.cf !== 'undefined')c();else{cf_async=!0;var r=document.createElement("script"),s=document.getElementsByTagName("script")[0];r.async=!0;r.src="//srv.clickfuse.com/showads/showad.js";r.readyState?r.onreadystatechange=function(){if("loaded"==r.readyState||"complete"==r.readyState)r.onreadystatechange=null,c()}:r.onload=c;s.parentNode.insertBefore(r,s)};
+    })();
+  </script>
+</div>
+
+        </div>
+            <div class="next__page__box">
+              <a class="next__page__box-link" rel="next" href="/articles/10059/page/2">
+                <div class="next__page__box-label">
+                  <i class="fas fa-arrow-circle-right"></i> 次のページ
+                </div>
+                <div class="next__page__box-text">
+                  『ファイナルファンタジーIV ジ・アフター -月の帰還-』の登場人物・キャラクター
+                </div>
+</a>            </div>
+          <nav class="pagination__container" role="navigation" aria-label="pager">
+    <ul class="pagination">
+      
+          <li class="current__page">
+  <a href="/articles/10059">1</a>
+</li>
+          <li class="next__page">
+  <a rel="next" href="/articles/10059/page/2">2</a>
+</li>
+          <li>
+  <a href="/articles/10059/page/3">3</a>
+</li>
+          <li>
+  <a href="/articles/10059/page/4">4</a>
+</li>
+          <li>
+  <a href="/articles/10059/page/5">5</a>
+</li>
+        <li class="button"><a rel="next" href="/articles/10059/page/2">Next</a></li>
+
+    </ul>
+  </nav>
+
+        <div class="article__lower__middle__ad__container">
+              <div class="left__ad">
+                <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_pager-shita1_18152 -->
+  <div id="div-gpt-ad-1567392447894-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392447894-0'); });
+    </script>
+  </div>
+</div>
+
+              </div>
+              <div class="right__ad">
+                <div class="ad__large-rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_pager-shita2_18152 -->
+  <div id="div-gpt-ad-1567392510037-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392510037-0'); });
+    </script>
+  </div>
+</div>
+
+              </div>
+        </div>
+      <ul class="article__sns__list">
+            <li class="article__sns__list-item">
+      <a class="twitter" rel="nofollow noopener" target="_blank" href="https://twitter.com/intent/tweet?text=ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ&amp;url=https%3A%2F%2Frenote.jp%2Farticles%2F10059&amp;hashtags=RENOTE&amp;via=renote_official&amp;related=renote_official"><i class="fab fa-twitter"></i></a>
+    </li>
+    <li class="article__sns__list-item">
+      <a class="facebook" rel="nofollow noopener" target="_blank" onclick="window.open(this.href, &#39;fb-window&#39;, &#39;width=650, height=450, menubar=no, toolbar=no, scrollbars=yes&#39;); return false;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frenote.jp%2Farticles%2F10059"><i class="fab fa-facebook-f"></i></a>
+    </li>
+    <li class="article__sns__list-item">
+      <a class="hatebu" rel="nofollow noopener" target="_blank" href="http://b.hatena.ne.jp/add?mode=confirm&amp;url=https%3A%2F%2Frenote.jp%2Farticles%2F10059&amp;title=ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ"><i class="fa c-fa-hatebu"></i></a>
+    </li>
+    <li class="article__sns__list-item">
+      <a class="line" rel="nofollow noopener" target="_blank" href="http://line.me/R/msg/text/?ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ%0D%0Ahttps%3A%2F%2Frenote.jp%2Farticles%2F10059"><i class="fa c-fa-line"></i></a>
+    </li>
+    <li class="article__sns__list-item">
+      <a class="get-pocket" rel="nofollow noopener" target="_blank" onclick="window.open(this.href, &#39;get-pocket-window&#39;, &#39;width=550, height=350, menubar=no, toolbar=no, scrollbars=yes&#39;); return false;" href="http://getpocket.com/edit?url=https%3A%2F%2Frenote.jp%2Farticles%2F10059&amp;title=ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ"><i class="fab fa-get-pocket"></i></a>
+    </li>
+
+      </ul>
+      <div class="article__user__container small">
+        <a class="article__user__link" href="/users/kiyokiyo23">
+          <div class="user__image">
+            <div class="user__image-circle"></div>
+            <div class="user__image-circle"></div>
+            <img loading="lazy" decoding="async" width="500" height="500" alt="kiyokiyo23" src="/assets/noimages/no-avatar-d4e37678008885818db72f64da1fc1d720a14af4ddb3928fe5853b5e1be76218.png" />
+          </div>
+          <div class="user__info">
+            <div class="user__name">kiyokiyo23</div>
+            <div class="user__slug">@kiyokiyo23</div>
+          </div>
+</a>      </div>
+          <div class="articles__list__container">
+            <h2 class="articles__list__title"><span class="articles__list__title-main">Related Articles</span><span class="articles__list__title-sub">関連記事</span></h2>
+            <div class="articles__list">
+                <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/17038">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM09UQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--24dc6086eb8990474901e612a732a744471e71db/maxresdefault.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">カイン・ハイウインド（ファイナルファンタジーIV）の徹底解説・考察まとめ</h3>
+          <p class="articles__list__item__description">カイン・ハイウインドは、1991年にスクウェア（現・スクウェア・エニックス）より発売されたロールプレイングゲーム『ファイナルファンタジーIV』に登場するキャラクターで、バロン王国の竜騎士団の若き隊長である。本作の主人公セシルとは幼い頃からの親友であり良きライバルだが、セシルの恋人で自身の幼なじみでもある白魔道士ローザに恋心を抱いている。その想いを魔道士ゴルベーザに利用され、操られたカインは敵としてセシルの前に立ちはだかる。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/6257">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUpxIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d1866a502905c00bb2c666048ab16ef7f38b2cbd/6dda9da42fbc31dc22c3145a834e250d.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）の召喚獣まとめ</h3>
+          <p class="articles__list__item__description">召喚獣とは、人気RPG『ファイナルファンタジー（FF）』シリーズに登場する異形の存在。作品によってはストーリーにも大きく影響を及ぼす。
+召喚獣の姿は人型やモンスターなど多種多様であり、プレイヤーの心強い味方として戦ってくれたり、時には強敵としても登場し、ゲームを盛り上げてくれる。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10378">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZzd1IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--164bdaa9a577974bef1359a46ff29f992c9af48b/maxresdefault.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー 零式（FF零式）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">「ファイナルファンタジー 零式（れいしき）」 （FF零式） とは、2011年にスクウェア・エニックスより発売されたプレイステーションポータブル（PSP）用ロールプレイングゲーム（RPG）。
+戦争をテーマに、クリスタルと神、人間の命と死について描かれるFFシリーズの外伝的作品。
+主人公の14人の少年少女たちは、アギトと呼ばれる救世主になるために厳しい訓練をこなしながら、戦争に身を投じていく。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/12075">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3c2QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1d3c2c994b59f072678c49f49c52c20c7241eb82/maxresdefault.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）の裏ボス・隠しボスまとめ</h3>
+          <p class="articles__list__item__description">裏ボス・隠しボスとはストーリー展開上は倒す必要の無いボスモンスターのこと。基本的に、知らずに挑めば一瞬で壊滅する強さを持っており、倒すためには対策を講じたり、レベルカンストなどプレイヤーキャラクターを強化したりする必要がある。
+歴代ファイナルファンタジーシリーズにも裏ボス・隠しボスにあたるボスモンスターは存在しており、そのどれもが強力なモンスターである。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10275">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb25wIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f8c415b3b262c42f2d7227f1027bd3c3f6a08521/dis_chao_desktop_1024x768_hd-wallpaper-708686.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）のラスボスまとめ</h3>
+          <p class="articles__list__item__description">人気RPG『ファイナルファンタジー（FF）』シリーズの最後の敵として登場するラスボス。その姿は個性的で独特の異形のものが多く、時に名ゼリフを残したりもする。
+単なる悪役としてだけではなく、その背景にある心情や物語も丁寧に描かれ、プレイヤーの心を捉えた。
+ゲーム機の性能のアップとともに、そのグラフィックも進化していき、よりリアルなラスボスが描かれるようになった。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10340">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdkRyIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8f013b166527df19c211a0781ce0a48fbdaded28/dissidia_final_fantasy_012__bane_of_heroes_v2_by_lonewolfhbs-d5df14a.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）のヒロイン・女性メインキャラクターまとめ</h3>
+          <p class="articles__list__item__description">人気RPG『ファイナルファンタジー（FF）』シリーズのヒロインたちは、強く美しく物語を彩ってくれる存在である。ヒロインたちは主役として、あるいはヒーローを支える存在として活躍する。時には恋をしたり、別離を経験したり、過酷な運命に立ち向かったりする。
+作品ごとに様々な魅力を持つヒロインが登場し、プレイヤーを魅了する。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10307">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBclRxIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e78d8865cf6ca0462f23a3ad6a0eb8b76a6f5281/ff-2-7.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）のヒーロー・男性メインキャラクターまとめ</h3>
+          <p class="articles__list__item__description">人気RPG『ファイナルファンタジー（FF）』シリーズのヒーローたちは物語の鍵を握る人物として活躍するが、時には悲しい運命をたどる者や、裏切り者がいたりとその魅力は作品ごとに違う。美形が多いのも特徴である。
+シリーズごとにリアルさを増していくそのビジュアルは他の追随を許さない。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/12280">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM2hFQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6d05bacb053c1584dd032f234ae2cb9a5d0a470f/Realm_Reborn_Job_Art.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）のジョブまとめ</h3>
+          <p class="articles__list__item__description">ファイナルファンタジーシリーズのジョブとは、プレイヤーが任意にキャラクターのジョブ（役割）を決定し、その能力をもってバトルやダンジョンを攻略していくシステムである。代表的なものにナイト、モンク、白魔道士、黒魔道士がいる。状況によってジョブを切り替えていくことをジョブチェンジといい、ジョブを取得、切り替えしていくゲームシステムをジョブシステムや、ジョブチェンジシステムなどと呼ぶ。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/11047">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVFMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--3db668679322de9cc4adf5d46df5adcae1210bc4/9dcbb798.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Feature"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）のトラウマまとめ</h3>
+          <p class="articles__list__item__description">『ファイナルファンタジー（FF）』シリーズにおいて、忘れられないシーンはいろいろあるが、つらい経験ほど記憶に残るものである。
+ここでは『FF』シリーズのナンバリングタイトルのゲーム中において、トラウマになるほど苦労したシーン、怖かったシーン、悲しかったシーンなどを紹介する。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/11244">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMllUQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--17c659dfce800ad63ea01e71fd61b34d305b2033/FF14-tyokobo.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）の歴代チョコボまとめ</h3>
+          <p class="articles__list__item__description">チョコボとは、『ファイナルファンタジー（FF）』シリーズに登場する二足歩行の架空の鳥で、シリーズを代表するマスコットキャラクターである。ゲーム中では乗り物として扱われることが多く、騎乗時のBGMであるチョコボのテーマ曲は様々なアレンジver.が存在する。チョコボはシリーズ毎に様々な種類が登場し、仲間になったり、召喚獣として登場したり敵として戦ったりもする。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10978">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeFlIQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0c44664683182be3c3d8f88b42595f890eaee262/f32fda9c.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）の歴代シドまとめ</h3>
+          <p class="articles__list__item__description">シドは、『ファイナルファンタジー（FF）』シリーズに登場する名物キャラである。シドという名前だけは共通だが、シリーズ毎にその外見や年齢、設定などは異なる。また、『FF』シリーズに頻繁に登場する乗り物「飛空艇（飛行船）」に関わることが多いことでも知られる。ここでは『FF』ナンバリングタイトルの各シリーズ毎に、シドという人物について紹介する。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10509">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcG56IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--42064105b9802d119b2f7f0e7d0cef5f8b92a92d/fft1024en.0.0.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Word"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジータクティクス（FFT）の名言・名セリフ／名シーン・名場面まとめ</h3>
+          <p class="articles__list__item__description">ファイナルファンタジータクティクス（FFT）とは、1997年に発売されたFFシリーズの外伝的作品。FFシリーズ初のシミュレーションRPGである。苛烈な内戦の中で主要キャラクターが多く死亡する今作は従来のFFシリーズと毛並みが違っており、ファンを驚かせた。諸勢力が争う戦争に暗躍する謀略に巻き込まれ苦悩するキャラクターたちはそれぞれ印象的な台詞を残している。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/11123">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNXdOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c80255dda9b5926e84fdd2a2609b2d095aee0ae3/Final-Fantasy-XIV-A-Realm-Reborn-12.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）の魔法まとめ</h3>
+          <p class="articles__list__item__description">スクウェア・エニックスによって開発、発売されているファイナルファンタジーシリーズは2017年で30周年を迎える。タイトル数は合計87作品に及び、最多の作品数を有するRPGシリーズとして2017年にはギネス世界記録に認定されている。そんな長寿シリーズであるファイナルファンタジーには、数多の魔法が登場する。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10800">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjhBQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--159f202df4623f9dbec448b407d6d28b98ad71a1/1_25_2048x2048.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジータクティクスアドバンス（FFTA）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">『ファイナルファンタジータクティクスアドバンス』（FFTA）は2003年に発売されたシミュレーションロールプレイングゲーム。今作は、PS版『ファイナルファンタジータクティクス（FFT）』の移植や続編ではなく、新たに作られた作品である。
+主人公マーシュは、ある日突然剣と魔法のファンタジーの世界へと変貌してしまった町へと迷い込んでしまう。彼は元の世界へ戻るため奮闘する。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/11163">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOWdQQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--922439de56be9a15086bb9afc6b4128d300f49af/maxresdefault.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）の歴代ビッグス&amp;ウェッジまとめ</h3>
+          <p class="articles__list__item__description">ビッグス&amp;ウェッジ とは、『ファイナルファンタジー（FF）』シリーズに登場する2人組のサブキャラクター。『FF6』で初登場し、以降ほとんどのシリーズに脇役として登場している『FF』ファンにはおなじみのキャラクターである。ここではナンバリングタイトルごとのビッグス&amp;ウェッジの活躍について紹介する。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10906">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOWtFQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8872b43695e70b2271168cae90f62e8a18b512f8/Wall_FFTA2_20.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジータクティクス A2 封穴のグリモア（FFTA2）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">『ファイナルファンタジータクティクス A2 封穴のグリモア』（FFTA2）は、2007年に発売されたニンテンドーDS用シミュレーションRPG。2003年に発売された『FFTA』の続編。
+主人公ルッソは終業式の日、図書室で1冊の古い本を読む。その本のページにルッソが自分の名前を書き込むと、彼は不思議な世界へと飛ばされてしまう。ルッソはこの異世界で冒険しながら元の世界へ戻る方法を探す。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10512">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBamYwIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--39e43bc6ccf375c9c58f5d64baffc8ef87ae89d2/zk7PFCA.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Word"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジーIV（FF4）の名言・名セリフ／名シーン・名場面まとめ</h3>
+          <p class="articles__list__item__description">『ファイナルファンタジーIV』はスクウェア製作のRPGゲームである。
+軍事国家バロンの暴走をきっかけに始まる物語は、地球と月の戦争という壮大なスケールに進展する。
+シリーズ中でもストーリーが「重い」として有名であり、それはキャラの多くがそれぞれ悲惨な過去や、葛藤を背負っているためである。
+それゆえに、キャラによる多くの名言がストーリーに厚みを持たしている。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/12592">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd0JkQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ec97978919e4a01294a555c3efeca1fe10456d11/9dcbb798.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="List"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジー（FF）のアビリティまとめ</h3>
+          <p class="articles__list__item__description">ファイナルファンタジーのアビリティシステム（ability system）とは、日本産RPGであるファイナルファンタジーシリーズ（FFシリーズ）に登場する、「コマンド」や「特性」をカスタマイズできる戦闘・育成システムである。
+ファイナルファンタジーシリーズにおけるアビリティとは、そのジョブやキャラクターを特徴づける技のことを指し、アビリティによってキャラクターに個性を持たせることができる。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10578">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa1QyIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a5e797cf09ca6a7998b2e2970ba610f1c8a342e0/Wall_FFTA_02.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Word"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジータクティクスアドバンス（FFTA）の名言・名セリフ／名シーン・名場面まとめ</h3>
+          <p class="articles__list__item__description">ファイナルファンタジータクティクスアドバンス（FFTA）とは、2003年に発売されたFFシリーズの外伝的作品であり、シミュレーションRPGである。
+古本屋で見つけた古書にあった呪文を唱えたことで、田舎町は理想を反映した空想世界に変わってしまうというストーリー。キャクター個々のコンプレックスに焦点を当てたストーリーとなっており、プレイヤーの心を掴む台詞が多数登場している。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/16900">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeXVnQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4303806fbe23cbf5e133abe98e1251dabdfdcc89/romasaga_rs.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ロマンシング サガ リ・ユニバース（ロマサガRS）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">『ロマンシング サガ リ・ユニバース』とは、スクエアエニックスとAkatsukiが共同開発しリリースされた、iOS・android用スマホオンラインRPGである。
+新しい命の全てを奪う『死食』復活に画策する魔王を阻み世界に平和をもたらすため、新8英雄（ポルカ、リズ、ゼノン、ヴァルドー、妖精ブラウニー、シン・ドゥ、マドレーン、イーヴリン）が集結。
+閃きシステムによる育成の大変さはあるが、愛着を持って一つのスタイルを育てたり、戦術を練って戦いに挑めるところが最大の魅力だ。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/9853">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcVBWIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d55f9f80d03ec916732266215c25af7c55e9a18/wallpaper_ff13_by_roxxas21-d5vdg6c.png);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジーXIII（FF13）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">「ファイナルファンタジーXIII」（FF13）は、スクウェア・エニックスからPlayStation 3（PS3）及びXbox 360のマルチプラットフォーム向けに発売されたFFシリーズの第13作目。
+「FABULA NOVA CRYSTALLIS」という神話世界を共有するプロジェクトの1つ。
+パルスとコクーン、2つの世界を舞台にライトニングたちは「神」のような存在ファルシと戦う。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/9954">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDdaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e20732e4028da9c94871d82be420c1513966c035/lrff13.jpeg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ライトニング リターンズ ファイナルファンタジーXIII（LRFF13）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">「ライトニング リターンズ ファイナルファンタジーXIII」（LRFF13）は、スクウェア・エニックスより2013年に発売されたPlayStation 3・Xbox 360向けゲームソフト。
+「FF13-2」の続編にあたり、「FF13」から続く三部作の最終章となる。
+前作から500年後の終末に向かう世界で、「FF13」の主人公ライトニングが再び主役となり人々を救うため戦う。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/9917">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDdYIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0fe4033056a9daa9b15272f29dfcdc32eb8010b4/1366_768_201201040107342359342.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジーXIII-2（FF13-2）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">「ファイナルファンタジーXIII-2」（FF13-2）とは、2011年にスクウェア・エニックスより発売されたプレイステーション3・Xbox 360向けゲームソフトであり、「FF13」の続編である。
+「FF13-2」は「FF13」のエンディング後から始まる。今作では「FF13」の主人公だったライトニングの妹セラが主人公となり、時空の歪みを正すために、未来から来たノエルと共に時空を超えた旅に出る。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/9409">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZy9JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--592e1247aafc766b90f17660ce159ea485a14254/img_2.jpeg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジーX（FF10）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">「ファイナルファンタジーX」（FF10）は、スクウェア・エニックスが2001年7月にプレイステーション2用ソフトとして発売したロールプレイングゲーム（RPG）。FFナンバリングタイトルの10作目。
+ザナルカンドに住む青年ティーダはある時異世界「スピラ」に飛ばされてしまう。そこで出会った召喚士のユウナとともに、この世界の脅威である「シン」を倒すための旅に出る。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/9595">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcjNPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f8d24fc324dc88af7b221c47763e0dc62c76af86/final_fantasy_X-2_wallpaper_1024_milo-1-2.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジーX-2（FF10-2）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">「ファイナルファンタジーX-2」（FFX-2）はスクウェア・エニックスより2003年にPlayStation2用ソフトとして発売されたRPGで、「FFX」からの正当な続編。
+世界観は「X」から引き継いているが、キャラクター演出などのノリはかなり軽い。ドレスアップなど新たなシステムを搭載している。
+「FFX」から2年後、ユウナはティーダに似た青年が映ったスフィアを見て、再び旅に出る。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/9719">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcUhSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0743ed8d4caa44ca7a42740861e5152ccbde082d/ff12232.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジーXII（FF12）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">ファイナルファンタジーXII（FF12）とは2006年に発売された、PlayStation 2専用ロールプレイングゲームで、FFシリーズの12作目。2017年7月13日にはリマスター版「ファイナルファンタジーXII ザ ゾディアック エイジ」がPS4版として販売される。
+帝国の支配下となった小国に住む少年ヴァンは、物盗り目的で王宮に忍び込んだことから大国同士の戦乱に巻き込まれていく。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/13025">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNCtEQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d2e095055760a00391e47f37eb4b52acf2e6e599/o0800045312874446596.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Feature"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">FFX-2『カモメ団の情報担当シンラ君』とFF7『神羅カンパニー』の関係のネタバレ解説まとめ</h3>
+          <p class="articles__list__item__description">FFX-2内で、主人公ユウナやその仲間リュック・パインが所属しているスフィアハンター集団・カモメ団。その一人、情報担当のシンラ君とFF7の神羅カンパニーにはただならぬ関係があった。シンラ君は実は大きなことを成し遂げていた。それは長い長い年月をかけて、違う物語に関わっていた。名前が似ているだけではない、公式が明かした裏設定とは。その内容と解説。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10117">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdmpoIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8a9399d3fd7474a00b00447ad6e70d6edf11cc01/maxresdefault.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジーXII レヴァナント・ウイング（FF12RW）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">「ファイナルファンタジーXII レヴァナント・ウイング」（FF12RW） は、スクウェア・エニックスより2007年に発売されたニンテンドーDS用ゲームソフト。「ファイナルファンタジーXII」（FF12）の派生作品。
+携帯ゲーム機としての今作では、タッチペンを使用し、手軽に遊べるロールプレイングゲーム（RPG）となった。
+浮遊大陸レムレースを舞台に「FF12」の主人公、ヴァンの新たな冒険を描く。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/10475">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWJ4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--09012e929d45c9226fe1c9cd0f68bff652f5f452/20150823111410a34.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Word"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジーXII（FF12）の名言・名セリフ／名シーン・名場面まとめ</h3>
+          <p class="articles__list__item__description">ファイナルファンタジーXII（FF12）とは2006年に発売されたFFシリーズの12作目。ダルマスカのダウンタウンに住む少年ヴァンは、祖国を支配する帝国に一泡吹かせるため王宮に忍び込んだことから世界を揺るがす大きな運命に巻き込まれていく。イヴァリースというひとつの歴史の中で、登場するキャラクターたちはそれぞれ印象的な台詞を残している。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+  <article class="articles__list__item">
+    <a class="articles__list__item__link" href="/articles/9173">
+      <div class="articles__list__item__inner">
+        <div class="articles__list__item__thumb">
+          <div class="articles__list__item__thumb__img" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOGFOQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--333e60bf8ca2925607dbabe0a298b44493ed93ac/ff7.jpg);"></div>
+          <div class="articles__list__item__thumb__inner">
+            <span class="articles__list__item__category" data-category="game"></span>
+            <span class="articles__list__item__type" data-type="Parent"></span>
+          </div>
+        </div>
+        <div class="articles__list__item__body">
+          <h3 class="articles__list__item__title">ファイナルファンタジーVII（FF7）のネタバレ解説・考察まとめ</h3>
+          <p class="articles__list__item__description">『ファイナルファンタジーVII』とは、1997年にスクウェア（現：スクウェア・エニックス）から発売された初のPlayStation（PS）用ロールプレイングゲーム（RPG）。シリーズの7作目。
+シリーズでは初めて全マップ3Dとなり、CGムービーを演出に取り入れ、RPG新時代の先駆けとなった。
+星を破滅させようとするセフィロスと、それを止めようとする主人公クラウドの戦いを描く物語。</p>
+          <p class="articles__list__item__read__article">Read Article</p>
+        </div>
+      </div>
+</a>  </article>
+
+            </div>
+          </div>
+    </div>
+  </div>
+  <div class="article__side__container">
+    <div class="article__side__inner">
+        <div class="article__tag__container">
+          <h2 class="article__tag-title">タグ - Tags</h2>
+          <ul class="article__tag__list">
+              <li class="article__tag__list-item">
+    <a class="animated__link-small" href="/tags/5417">FF4TA</a>
+    
+  </li>
+  <li class="article__tag__list-item">
+    <a class="animated__link-small" href="/tags/5417">FFIVTA</a>
+    
+  </li>
+  <li class="article__tag__list-item">
+    <a class="animated__link-small" href="/tags/5417">FINAL FANTASY IV THE AFTER</a>
+    
+  </li>
+  <li class="article__tag__list-item">
+    <a class="animated__link-small" href="/tags/5417">ファイナルファンタジーIV ジ・アフター -月の帰還-</a>
+    
+  </li>
+
+          </ul>
+        </div>
+          <div class="article__side__rectangle__ad__container">
+            <div class="ad__rectangle">
+  <!-- /62532913,21663238038/p_renote.pc_300x250_right1_18152 -->
+  <div id="div-gpt-ad-1575427478215-0" style="height:250px; width:300px;">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1575427478215-0'); });
+    </script>
+  </div>
+</div>
+
+          </div>
+          <div class="article__toc__container">
+            <h2 class="article__toc-title">目次 - Contents</h2>
+            <ul class="article__toc__list">
+                <li class="article__toc__list-item primary current">
+                  <a href="/articles/10059#article__item__220476">『ファイナルファンタジーIV ジ・アフター -月の帰還-』の概要</a>
+</li>                <li class="article__toc__list-item primary current">
+                  <a href="/articles/10059#article__item__220477">世界観</a>
+</li>                <li class="article__toc__list-item secondary current">
+                  <a href="/articles/10059#article__item__220686">バロン王国と『赤き翼』</a>
+</li>                <li class="article__toc__list-item secondary current">
+                  <a href="/articles/10059#article__item__220714">2つの月</a>
+</li>                <li class="article__toc__list-item secondary current">
+                  <a href="/articles/10059#article__item__220688">バブイルの塔</a>
+</li>                <li class="article__toc__list-item secondary current">
+                  <a href="/articles/10059#article__item__220690">ファルコン号</a>
+</li>                <li class="article__toc__list-item primary current">
+                  <a href="/articles/10059#article__item__220478">『ファイナルファンタジーIV ジ・アフター -月の帰還-』のあらすじ・ストーリー</a>
+</li>                <li class="article__toc__list-item secondary current">
+                  <a href="/articles/10059#article__item__220529">序章『月の帰還』</a>
+</li>                <li class="article__toc__list-item secondary current">
+                  <a href="/articles/10059#article__item__220531">セオドア編『最後の赤き翼』</a>
+</li>                <li class="article__toc__list-item secondary current">
+                  <a href="/articles/10059#article__item__220532">カイン編『竜騎士の帰還』</a>
+</li>                <li class="article__toc__list-item secondary current">
+                  <a href="/articles/10059#article__item__220534">リディア編『閉ざされた幻獣たち』</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/2#article__item__220535">ヤン編『ファブールの師父』</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/2#article__item__220537">パロム編『魔道士、森と水の都へ』</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/2#article__item__220538">エッジ編『バブイルの鼓動』</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/2#article__item__220539">ポロム編『月へ消えた魔導船』</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/2#article__item__220540">ギルバート編『星落つるダムシアン』</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/2#article__item__220542">月の民編『追憶の青き星』</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/2#article__item__220543">集結編『月の引力』</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/2#article__item__220545">終章・真月編</a>
+</li>                <li class="article__toc__list-item primary">
+                  <a href="/articles/10059/page/2#article__item__220480">『ファイナルファンタジーIV ジ・アフター -月の帰還-』の登場人物・キャラクター</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/2#article__item__220554">セオドア</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/2#article__item__220555">ルカ</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/3#article__item__220556">アーシュラ</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/3#article__item__220557">レオノーラ</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/3#article__item__220558">カイン</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/3#article__item__220560">ゴルベーザ</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/3#article__item__220561">セシル</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/3#article__item__220562">リディア</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/3#article__item__220563">エッジ</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/3#article__item__220564">ヤン</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/4#article__item__220565">パロム</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/4#article__item__220566">ポロム</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/4#article__item__220567">ギルバート</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/4#article__item__220568">謎の少女</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/4#article__item__220569">クリエイター</a>
+</li>                <li class="article__toc__list-item primary">
+                  <a href="/articles/10059/page/4#article__item__220481">システム</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/4#article__item__220570">月齢</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/4#article__item__220571">ATB（アクティブ・タイム・バトル）</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/4#article__item__220572">バンド</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/5#article__item__220573">オートバトル</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/5#article__item__220574">スキップ</a>
+</li>                <li class="article__toc__list-item primary">
+                  <a href="/articles/10059/page/5#article__item__220482">チャレンジダンジョン</a>
+</li>                <li class="article__toc__list-item primary">
+                  <a href="/articles/10059/page/5#article__item__220850">『ファイナルファンタジーIV ジ・アフター -月の帰還-』の裏話・トリビア・小ネタ／エピソード・逸話</a>
+</li>                <li class="article__toc__list-item secondary">
+                  <a href="/articles/10059/page/5#article__item__220860">名言・名セリフ</a>
+</li>            </ul>
+          </div>
+        <div class="article__side__skyscraper__ad__container">
+          <div class="ad__large-skyscraper">
+  <!-- /62532913,21663238038/p_renote.pc_300x600_right_18152 -->
+  <div id="div-gpt-ad-1567392685458-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567392685458-0'); });
+    </script>
+  </div>
+</div>
+
+        </div>
+        <!-- iVideoSense player Widget -->
+        <div id="ivsplayer01-container">
+          <ivs-player
+            id="ivsplayer01"
+            data-ivs-key="bbfba3b9d43412ac5f2d8994c749e8ab"
+            data-ivs-spid="3001678"
+            data-ivs-wid="e0d179fc-8956">
+          </ivs-player>
+        </div>
+        <script src="https://player.ivideosmart.com/ivsplayer/v4/dist/js/loader.js"></script>
+        <!-- ends here -->
+    </div>
+  </div>
+  <div class="article__mobile-side" id="js-article__mobile-side">
+    <div class="article__mobile-side-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</div>
+  <div class="container article__bottom__container">
+    <div class="article__bottom__ad__container">
+          <div class="ad__billboard">
+  <!-- /62532913,21663238038/p_renote.pc_728x90_belowrecommend_18152 -->
+  <div id="div-gpt-ad-1567595441764-0">
+    <script>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1567595441764-0'); });
+    </script>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+
+  <div class="container flip__articles__list__container">
+    <h2 class="flip__articles__list__title"><span class="flip__articles__list__title-main">Game Ranking</span><span class="flip__articles__list__title-sub">ゲームランキング</span></h2>
+    <ol class="flip__articles__list">
+        <li class="flip__articles__item">
+          <div class="flip__articles__item__inner">
+            <a href="/articles/10211">
+              <div class="flip__articles__item__front" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcjduIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3d5c66d7f2cde7791d8c918f348d705b20cc4a53/ib.png);">
+                <div class="flip__articles__item__order"></div>
+                <div class="flip__articles__item__front__inner">
+                  <h3 class="flip__articles__item__title textshadow">Ib（イヴ）のネタバレ解説・考察まとめ</h3>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div>              <div class="flip__articles__item__back" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcjduIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3d5c66d7f2cde7791d8c918f348d705b20cc4a53/ib.png);">
+                <div class="flip__articles__item__back__inner">
+                  <span class="flip__articles__item__category textshadow" data-category="Game"></span>
+                  <span class="flip__articles__item__type textshadow" data-type="Parent"></span>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div></a>          </div>
+        </li>
+        <li class="flip__articles__item">
+          <div class="flip__articles__item__inner">
+            <a href="/articles/9379">
+              <div class="flip__articles__item__front" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb2JHIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a668daad97ac7dce65ad68b71ef7af60d5f38d24/index.jpg);">
+                <div class="flip__articles__item__order"></div>
+                <div class="flip__articles__item__front__inner">
+                  <h3 class="flip__articles__item__title textshadow">ドラゴンクエストIX（DQ9・ドラクエ9）のネタバレ解説・考察まとめ</h3>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div>              <div class="flip__articles__item__back" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb2JHIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a668daad97ac7dce65ad68b71ef7af60d5f38d24/index.jpg);">
+                <div class="flip__articles__item__back__inner">
+                  <span class="flip__articles__item__category textshadow" data-category="Game"></span>
+                  <span class="flip__articles__item__type textshadow" data-type="Parent"></span>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div></a>          </div>
+        </li>
+        <li class="flip__articles__item">
+          <div class="flip__articles__item__inner">
+            <a href="/articles/10639">
+              <div class="flip__articles__item__front" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa2Y1IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--471f0b7401ee47af891beb8a306cc5b6f6d2416d/e663892ecaaa4ea226d0379609bf3c86--cross-wallpaper-chrono-cross.jpg);">
+                <div class="flip__articles__item__order"></div>
+                <div class="flip__articles__item__front__inner">
+                  <h3 class="flip__articles__item__title textshadow">クロノ・クロス（Chrono Cross）のネタバレ解説・考察まとめ</h3>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div>              <div class="flip__articles__item__back" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa2Y1IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--471f0b7401ee47af891beb8a306cc5b6f6d2416d/e663892ecaaa4ea226d0379609bf3c86--cross-wallpaper-chrono-cross.jpg);">
+                <div class="flip__articles__item__back__inner">
+                  <span class="flip__articles__item__category textshadow" data-category="Game"></span>
+                  <span class="flip__articles__item__type textshadow" data-type="Parent"></span>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div></a>          </div>
+        </li>
+        <li class="flip__articles__item">
+          <div class="flip__articles__item__inner">
+            <a href="/articles/39531">
+              <div class="flip__articles__item__front" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBODZLSEE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b3c5dcc90eb7516fca14188219b414362e08e9d6/thrsva.jpg);">
+                <div class="flip__articles__item__order"></div>
+                <div class="flip__articles__item__front__inner">
+                  <h3 class="flip__articles__item__title textshadow">ポケモン剣盾「ポットデス」の真作・贋作の見分け方【ポケットモンスターソード・シールド】</h3>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div>              <div class="flip__articles__item__back" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBODZLSEE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b3c5dcc90eb7516fca14188219b414362e08e9d6/thrsva.jpg);">
+                <div class="flip__articles__item__back__inner">
+                  <span class="flip__articles__item__category textshadow" data-category="Game"></span>
+                  <span class="flip__articles__item__type textshadow" data-type="Various"></span>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div></a>          </div>
+        </li>
+        <li class="flip__articles__item">
+          <div class="flip__articles__item__inner">
+            <a href="/articles/7401">
+              <div class="flip__articles__item__front" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc2VIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--214780e2fcc856a186c4f8675ea3b180fffe8699/i320.jpeg);">
+                <div class="flip__articles__item__order"></div>
+                <div class="flip__articles__item__front__inner">
+                  <h3 class="flip__articles__item__title textshadow">ポケットモンスター（ポケモン）のモンスターボールまとめ</h3>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div>              <div class="flip__articles__item__back" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc2VIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--214780e2fcc856a186c4f8675ea3b180fffe8699/i320.jpeg);">
+                <div class="flip__articles__item__back__inner">
+                  <span class="flip__articles__item__category textshadow" data-category="Game"></span>
+                  <span class="flip__articles__item__type textshadow" data-type="List"></span>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div></a>          </div>
+        </li>
+        <li class="flip__articles__item">
+          <div class="flip__articles__item__inner">
+            <a href="/articles/12963">
+              <div class="flip__articles__item__front" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNlorQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8da1855bcae3a8488ad9ac50b4ea8200deb54f77/15479_504768m9qyo.jpg);">
+                <div class="flip__articles__item__order"></div>
+                <div class="flip__articles__item__front__inner">
+                  <h3 class="flip__articles__item__title textshadow">ライブ・ア・ライブ（Live A Live）のネタバレ解説・考察まとめ</h3>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div>              <div class="flip__articles__item__back" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNlorQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8da1855bcae3a8488ad9ac50b4ea8200deb54f77/15479_504768m9qyo.jpg);">
+                <div class="flip__articles__item__back__inner">
+                  <span class="flip__articles__item__category textshadow" data-category="Game"></span>
+                  <span class="flip__articles__item__type textshadow" data-type="Parent"></span>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div></a>          </div>
+        </li>
+        <li class="flip__articles__item">
+          <div class="flip__articles__item__inner">
+            <a href="/articles/17772">
+              <div class="flip__articles__item__front" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNGJOQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7c8accad5f02173f9071b2abbd7ee52a94089094/mother3.jpg);">
+                <div class="flip__articles__item__order"></div>
+                <div class="flip__articles__item__front__inner">
+                  <h3 class="flip__articles__item__title textshadow">MOTHER3（マザー3）のネタバレ解説・考察まとめ</h3>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div>              <div class="flip__articles__item__back" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNGJOQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7c8accad5f02173f9071b2abbd7ee52a94089094/mother3.jpg);">
+                <div class="flip__articles__item__back__inner">
+                  <span class="flip__articles__item__category textshadow" data-category="Game"></span>
+                  <span class="flip__articles__item__type textshadow" data-type="Parent"></span>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div></a>          </div>
+        </li>
+        <li class="flip__articles__item">
+          <div class="flip__articles__item__inner">
+            <a href="/articles/14944">
+              <div class="flip__articles__item__front" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMC92QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--3b9d8d8eb0d38f6e6399f8d79a6b8ec2a4c7f39e/GamesPrincess_HorizonZeroDawn_rimandato.jpg);">
+                <div class="flip__articles__item__order"></div>
+                <div class="flip__articles__item__front__inner">
+                  <h3 class="flip__articles__item__title textshadow">Horizon Zero Dawn（ホライゾン ゼロ ドーン）のネタバレ解説・考察まとめ</h3>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div>              <div class="flip__articles__item__back" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMC92QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--3b9d8d8eb0d38f6e6399f8d79a6b8ec2a4c7f39e/GamesPrincess_HorizonZeroDawn_rimandato.jpg);">
+                <div class="flip__articles__item__back__inner">
+                  <span class="flip__articles__item__category textshadow" data-category="Game"></span>
+                  <span class="flip__articles__item__type textshadow" data-type="Parent"></span>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div></a>          </div>
+        </li>
+        <li class="flip__articles__item">
+          <div class="flip__articles__item__inner">
+            <a href="/articles/17530">
+              <div class="flip__articles__item__front" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd2JjQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ca763bf5cf804198de8201d5012c3f0ba02d48dc/i=https-253A-252F-252Fs.jpg);">
+                <div class="flip__articles__item__order"></div>
+                <div class="flip__articles__item__front__inner">
+                  <h3 class="flip__articles__item__title textshadow">沙耶の唄（ゲーム）のネタバレ解説・考察まとめ</h3>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div>              <div class="flip__articles__item__back" style="background-image: url(https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd2JjQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ca763bf5cf804198de8201d5012c3f0ba02d48dc/i=https-253A-252F-252Fs.jpg);">
+                <div class="flip__articles__item__back__inner">
+                  <span class="flip__articles__item__category textshadow" data-category="Game"></span>
+                  <span class="flip__articles__item__type textshadow" data-type="Parent"></span>
+                </div>
+                <div class="flip__articles__item__overlay"></div>
+</div></a>          </div>
+        </li>
+    </ol>
+  </div>
+
+
+
+        </div>
+      </div>
+
+        <footer class="footer">
+    <div class="container">
+      <div class="footer__introduction">
+        <div class="footer__logo__container">
+          <a class="footer__logo" href="https://renote.jp/"><img loading="lazy" decoding="async" class="footer__logo__img" alt="RENOTE [リノート]" width="380" height="300" src="/assets/logo-5688eb3a2f68a41587a2fb8689fbbe2895080c67a7a472e9e76c994871d89e83.png" /></a>
+          <div class="footer__icons__container">
+            <ul class="footer__icons">
+                <li class="footer__icon">
+                    <a target="_blank" rel="noopener" href="https://twitter.com/renote_official"><i class="fab fa-twitter fa-fw"></i></a>
+                </li>
+                <li class="footer__icon">
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/renote.official"><i class="fab fa-facebook-f fa-fw"></i></a>
+                </li>
+                <li class="footer__icon">
+                    <a target="_blank" rel="noopener" href="https://renote.jp/feed.rss"><i class="fas fa-rss fa-fw"></i></a>
+                </li>
+                <li class="footer__icon">
+                    <a target="_blank" rel="noopener" href="https://feedly.com/i/subscription/feed/https%3A%2F%2Frenote.jp%2Ffeed.rss">
+                      <i class="fa c-fa-feedly fa-fw"></i>
+</a>                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__introduction__text">
+          <h3 class="footer__introduction__text__heading">RENOTE [リノート]</h3>
+          <p class="footer__introduction__text__paragraph">みんなでつくるポップカルチャー・エンタメの攻略本</p>
+        </div>
+      </div>
+      <hr>
+      <div class="footer__navigation__container">
+        <ul class="footer__navigation">
+          <li class="footer__navigation__item">
+            <p class="footer__navigation__item__heading">Category</p>
+            <ul class="sub-menu">
+                <li class="footer__navigation__subitem">
+                  <a href="/categories/anime-manga">アニメ・漫画（マンガ）</a>
+                </li>
+                <li class="footer__navigation__subitem">
+                  <a href="/categories/game">ゲーム</a>
+                </li>
+                <li class="footer__navigation__subitem">
+                  <a href="/categories/music">音楽</a>
+                </li>
+                <li class="footer__navigation__subitem">
+                  <a href="/categories/movie">映画</a>
+                </li>
+                <li class="footer__navigation__subitem">
+                  <a href="/categories/tv">テレビ</a>
+                </li>
+                <li class="footer__navigation__subitem">
+                  <a href="/categories/entertainment">その他エンタメ</a>
+                </li>
+            </ul>
+          </li>
+          <li class="footer__navigation__item">
+            <p class="footer__navigation__item__heading">User Menu</p>
+            <ul class="sub-menu">
+              <li class="footer__navigation__subitem article__edit__link">
+                <a href="/articles/new">記事作成</a>
+              </li>
+                <li class="footer__navigation__subitem">
+                  <a href="/users/register">ユーザー登録</a>
+                </li>
+                <li class="footer__navigation__subitem">
+                  <a href="/login">ログイン</a>
+                </li>
+            </ul>
+          </li>
+          <li class="footer__navigation__item">
+            <p class="footer__navigation__item__heading">About</p>
+            <ul class="sub-menu">
+              <li class="footer__navigation__subitem">
+                <a href="/pages/contact">お問い合わせ</a>
+              </li>
+              <li class="footer__navigation__subitem">
+                <a href="/pages/terms">利用規約</a>
+              </li>
+              <li class="footer__navigation__subitem">
+                <a href="/pages/privacy">プライバシーポリシー</a>
+              </li>
+              <li class="footer__navigation__subitem">
+                <a href="/pages/job">採用情報</a>
+              </li>
+              <li class="footer__navigation__subitem">
+                <a target="_blank" rel="noopener" href="https://doubledown.jp/">運営会社</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__navigation__item">
+            <p class="footer__navigation__item__heading">Follow Us</p>
+            <ul class="sub-menu">
+                <li class="footer__navigation__subitem">
+                    <a target="_blank" rel="noopener" href="https://twitter.com/renote_official"><i class="fab fa-twitter fa-fw"></i> Twitter</a>
+                </li>
+                <li class="footer__navigation__subitem">
+                    <a target="_blank" rel="noopener" href="https://www.facebook.com/renote.official"><i class="fab fa-facebook-f fa-fw"></i> Facebook</a>
+                </li>
+                <li class="footer__navigation__subitem">
+                    <a target="_blank" rel="noopener" href="https://renote.jp/feed.rss"><i class="fas fa-rss fa-fw"></i> RSS</a>
+                </li>
+                <li class="footer__navigation__subitem">
+                    <a target="_blank" rel="noopener" href="https://feedly.com/i/subscription/feed/https%3A%2F%2Frenote.jp%2Ffeed.rss">
+                      <i class="fa c-fa-feedly fa-fw"></i> Feedly
+</a>                </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <p class="footer__copyright">&copy; 2015-2022 RENOTE</p>
+    </div>
+  </footer>
+
+    </div>
+
+    <script type="application/ld+json">
+      {"@context":"http://schema.org/","@type":"WebSite","url":"https://renote.jp/","potentialAction":{"@type":"SearchAction","target":"https://renote.jp/pages/search?q={search_term_string}","query-input":"required name=search_term_string"}}
+    </script>
+      <script type="application/ld+json">
+    {"@context":"http://schema.org/","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://renote.jp/articles/10059"},"headline":"ファイナルファンタジーIV ジ・アフター -月の帰還-（FF4TA）のネタバレ解説・考察まとめ","image":["https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaHpmIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--68c8deabcc1c53706dcca5df4f8b16dec342f611/unnamed.jpg"],"datePublished":"2017-06-07T16:56:39+09:00","dateModified":"2021-11-17T19:35:59+09:00","author":{"@type":"Organization","name":"RENOTE"},"publisher":{"@type":"Organization","name":"RENOTE","logo":{"@type":"ImageObject","url":"https://renote.jp/assets/logo-5688eb3a2f68a41587a2fb8689fbbe2895080c67a7a472e9e76c994871d89e83.png","width":380,"height":300}},"description":"「ファイナルファンタジーIV ジ・アフター -月の帰還-」（FF4TA）とは、スクウェア・エニックスより配信・発売されたロールプレイングゲーム（RPG）。元は携帯アプリとして配信され、その後スマホ版も配信され、携帯ゲーム機用ソフトとしても発売された。FF4の主人公セシルの息子セオドアが主役となり、かつての仲間と共に世界の危機を救う旅に出る。"}
+  </script>
+
+
+    <script src="/assets/application-acd49a2c676f3f8579cffae5a76016e2e772b1241e2b3b4ad6333786d71b056f.js"></script>
+  </body>
+</html>

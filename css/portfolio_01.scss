@@ -1,0 +1,1092 @@
+@import url(./reboot.css);
+@import url(./format.css);
+
+/*===========================================================
+ 汎用
+===========================================================*/
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    letter-spacing: 0.3px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.left {
+    align-self: start;
+}
+
+.right {
+    align-self: end;
+}
+
+.ml100 {
+    margin-left: 100px;
+}
+
+.ml200 {
+    margin-left: 243px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+/*===========================================================
+ bodyとOPアニメーション(文字)の設定
+===========================================================*/
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    background-color: #000;
+}
+
+.body-anime {
+    animation: body-anime1 4s ease-in-out 11s forwards, body-anime2 7s ease-in-out 13s forwards;
+}
+
+@keyframes body-anime1 {
+    0% {
+        opacity: 0;
+        background-color: #000;
+    }
+
+    80% {
+        opacity: 0;
+        background-color: #fff;
+    }
+
+    100% {
+        opacity: 0;
+        background-color: #fff;
+    }
+}
+
+@keyframes body-anime2 {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*===========================================================
+ オープニングアニメーション
+===========================================================*/
+.curtain {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    animation: curtain 4s ease-in-out 11s forwards;
+
+    @keyframes curtain {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+
+.curtain-text1 span,
+.curtain-text2 span {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    font-size: 64px;
+    font-weight: bold;
+    white-space: nowrap;
+    opacity: 0;
+    animation: curtain-text 4s ease-in-out;
+
+    @keyframes curtain-text {
+        33% {
+            opacity: 1;
+        }
+
+        66% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+}
+
+.curtain-text1 span {
+    animation-delay: 1s;
+}
+
+.curtain-text2 span {
+    animation-delay: 6s;
+}
+
+
+.curtain-text3 span {
+    color: #fff;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    font-size: 20px;
+    opacity: 0;
+    animation: curtain-text3 1s ease-in-out 2s 8 alternate forwards;
+
+    @keyframes curtain-text3 {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+
+/*===========================================================
+ other titles
+===========================================================*/
+.sound-wrap,
+.other-wrap {
+    width: 360px;
+    height: fit-content;
+    background-color: #000;
+    position: absolute;
+    top: 3vh;
+    z-index: 100;
+    transition: 0.5s ease-in 0.2s;
+}
+
+.sound-list::before,
+.sound-list:after,
+.other-list::before,
+.other-list:after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 200;
+    transition: 0.2s ease-in 0.2s;
+}
+
+
+.other-wrap {
+    left: -324px;
+
+    span {
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 0;
+        color: #fff;
+        font-size: 16px;
+        position: absolute;
+        right: 2px;
+        writing-mode: vertical-lr;
+    }
+}
+
+.other-list {
+    width: calc(100% - 4px);
+    height: 80vh;
+    margin: 2px;
+    border: 1px solid #fff;
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+
+    &::before,
+    &::after {
+        right: -25px;
+    }
+
+    &::before {
+        transform: rotate(45deg) translate(-25px, 10px);
+    }
+
+    &:after {
+        transform: rotate(-45deg) translate(-25px, -10px);
+
+    }
+
+    &.active::before {
+        transform: rotate(-45deg) translate(-10px, -25px);
+    }
+
+    &.active:after {
+        transform: rotate(45deg) translate(-10px, 25px);
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    li {
+        width: 90%;
+        height: calc((80vh - 24px)/10);
+        margin: 2px;
+        padding: 0.6vh;
+        position: relative;
+        border: 1px solid #fff;
+        background-size: contain;
+        font-size: 0.9vw;
+        transition: 0.7s all;
+
+        &:hover {
+            background-color: #fff;
+
+            a {
+                color: #000;
+            }
+        }
+    }
+}
+
+.modal-bg {
+    width: 960px;
+    height: 640px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 400px;
+    transform: translateY(-55%);
+    z-index: 0;
+    transition: 0.5s ease-in;
+    opacity: 0;
+}
+
+.modal-items {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    background-color: #000;
+    background-size: contain;
+    transition: 0.5s ease-in;
+}
+
+.tonberiL {
+    width: 50px;
+    height: 50px;
+    background: url(../elements/tonberi_L.png) 0 0 no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -45px;
+    left: 10px;
+    z-index: 99;
+}
+
+.tonberiR {
+    width: 50px;
+    height: 50px;
+    background: url(../elements/tonberi_R.png) 0 0 no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -45px;
+    left: 145px;
+    z-index: 99;
+}
+
+
+/*===========================================================
+ サウンドトラック
+===========================================================*/
+.sound-wrap {
+    right: -324px;
+
+    span {
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 0;
+        position: absolute;
+        left: 2px;
+        color: #fff;
+        font-size: 16px;
+        writing-mode: vertical-lr;
+        transform-origin: 50% 50%;
+        transform: rotate(180deg);
+    }
+}
+
+.sound-list {
+    width: calc(100% - 4px);
+    height: 80vh;
+    margin: 2px;
+    border: 1px solid #fff;
+    list-style: none;
+    position: relative;
+
+    &::before {
+        transform: rotate(-45deg) translate(-15px, -30px);
+    }
+
+    &:after {
+        transform: rotate(45deg) translate(-15px, 30px);
+    }
+
+    &.active::before {
+        transform: rotate(45deg) translate(-30px, 15px);
+    }
+
+    &.active:after {
+        transform: rotate(-45deg) translate(-30px, -15px);
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    li {
+        width: auto;
+        height: calc((80vh - 24px)/10);
+        margin: 2px;
+        padding: 0.6vh;
+        border: 1px solid #fff;
+        position: relative;
+        right: 0px;
+        font-size: 0.8vw;
+        transition: 0.7s all;
+
+        &:hover {
+            background-color: #fff;
+
+            a {
+                color: #000;
+            }
+        }
+    }
+}
+
+/*===========================================================
+ header
+===========================================================*/
+header {
+    height: 9vh;
+    position: relative;
+    z-index: 50;
+    top: 0;
+    left: 0;
+
+    .fixed {
+        width: 100%;
+        height: 5vh;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        border: 1px solid black;
+        background-color: #000;
+        justify-content: flex-start;
+
+        .logo {
+            width: auto;
+            height: 4.9vh;
+            /* border: 1px solid black; */
+            background-color: #000;
+
+            img {
+                height: 100%;
+                background-color: #000;
+            }
+        }
+    }
+
+    .g-nav {
+        width: 100%;
+        height: 4vh;
+        background-color: #555;
+        top: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50;
+
+        .event-menu-bg {
+            width: 100vw;
+            height: 86vh;
+            background-color: #000;
+            position: absolute;
+            top: 9vh;
+            display: none;
+
+            .event-menu {
+                width: 86vh;
+                height: 86vh;
+                left: 0;
+                right: 0;
+                margin: auto;
+                background: url(../elements/12580314_p0_square1200.jpg) 0 0 no-repeat;
+                background-size: cover;
+            }
+        }
+
+        .typesquare {
+            height: 4vh;
+            padding: 0 1.2vw;
+            color: #fff;
+            background-color: #555;
+            /* font-size: 16px; */
+            font-family: serif;
+            font-weight: bold;
+            line-height: 4vh;
+            transition: 0.7s all;
+            cursor: pointer;
+
+            &:hover {
+                color: #000;
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+main {
+    height: 91vh;
+    position: relative;
+
+    .wrap {
+        width: 68.2vw;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column nowrap;
+        position: absolute;
+        top: 8vh;
+        left: 0;
+        right: 0;
+        z-index: 10;
+
+        .container {
+            width: 60vw;
+            height: 16.75vh;
+            display: flex;
+            justify-content: space-between;
+
+            /* タイトルボックスのスタイル 共通 */
+            .square {
+                width: 10vw;
+                height: 10vw;
+                border: 1px solid transparent;
+                background-color: #fff;
+                transform: rotate(45deg);
+                background-size: contain;
+                position: relative;
+                overflow: hidden;
+                opacity: 1;
+                transition: 0.7s ease-in;
+                vertical-align: bottom;
+
+                &:hover {
+                    transform: rotate(45deg) scale(1.2);
+                    transition: 0.3s ease-in;
+                }
+
+                &:hover .cover {
+                    opacity: 0;
+                }
+
+                .bg-img {
+                    height: 100%;
+                    position: relative;
+                    transform: rotate(-45deg) translate(0, -5%) scale(1);
+                    transition: 0.7s all;
+                    overflow: hidden;
+                }
+
+                /*各タイトルのカバー*/
+                .cover {
+                    width: 100%;
+                    height: 100%;
+                    background-color: #fff;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    opacity: 1;
+
+                    /*各タイトルのナンバー*/
+                    span {
+                        width: fit-content;
+                        height: fit-content;
+                        margin: auto;
+                        color: #000;
+                        background-color: #fff;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        top: 0;
+                        bottom: 0;
+                        font-size: 36px;
+                        font-family: serif;
+                        transform: rotate(-45deg);
+                    }
+                }
+
+                .cover-anime {
+                    animation: cover 1s ease-in-out forwards;
+
+                    @keyframes cover {
+                        0% {
+                            opacity: 1;
+                        }
+
+                        100% {
+                            opacity: 0;
+                        }
+                    }
+                }
+
+                .cover-delay {
+                    animation-delay: 21s;
+                }
+            }
+
+            .square-anime {
+                animation: point 23s ease forwards;
+                pointer-events: none;
+
+                @keyframes point {
+                    99% {
+                        pointer-events: none;
+                    }
+
+                    100% {
+                        pointer-events: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 5vh;
+    position: absolute;
+    bottom: -0vh;
+    background-color: #fff;
+    z-index: 10;
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    .footer-news {
+        padding: 0 10px;
+        color: #fff;
+        background-color: #000;
+    }
+
+    .footer-time {
+        padding: 0 0 0 10px;
+    }
+
+    .footer-img {
+        width: 60px;
+        height: 4vh;
+        background: url(../elements/thum_chocobogp.jpg) 0 0 no-repeat;
+        background-size: contain;
+        margin: 2px 5px 0 0;
+    }
+
+    .footer-text {
+        margin-left: 0px;
+    }
+
+    .footer-more {
+        width: 76px;
+        height: 4vh;
+        background: url(../elements/more.png) 0 0 no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-45%);
+        transition: 0.5s all;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+    span {
+        font-size: 1.3vw;
+        font-family: serif;
+        line-height: 1.9;
+        margin-left: 0px;
+    }
+}
+
+
+/*=====================================================================
+ FF1
+=====================================================================*/
+.container:nth-child(1) .square:nth-child(1) .bg-img {
+    background: url(../elements/ff1/logo_ff1_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, -1%);
+}
+
+.container:nth-child(1) .square:nth-child(1):hover .bg-img {
+    background: url(../elements/ff1/04.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 5%);
+}
+
+/*=====================================================================
+ FF2
+=====================================================================*/
+.container:nth-child(1) .square:nth-child(2) .bg-img {
+    background: url(../elements/ff2/logo_ff2_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 0);
+}
+
+.container:nth-child(1) .square:nth-child(2):hover .bg-img {
+    background: url(../elements/ff2/05.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 13%) scaleY(1.2);
+}
+
+/*=====================================================================
+ FF3
+=====================================================================*/
+.container:nth-child(1) .square:nth-child(3) .bg-img {
+    background: url(../elements/ff3/logo_ff3_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 0);
+}
+
+.container:nth-child(1) .square:nth-child(3):hover .bg-img {
+    background: url(../elements/ff3/05.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 0);
+}
+
+/*=====================================================================
+ FF4
+=====================================================================*/
+.container:nth-child(1) .square:nth-child(4) .bg-img {
+    background: url(../elements/ff4/logo_ff4_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, -5%);
+}
+
+.container:nth-child(1) .square:nth-child(4):hover .bg-img {
+    background: url(../elements/ff4/03.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 23%) scaleY(1.3);
+}
+
+/*=====================================================================
+ FF5
+=====================================================================*/
+.container:nth-child(2) .square:nth-child(1) .bg-img {
+    background: url(../elements/ff5/logo_ff5_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, -10%);
+}
+
+.container:nth-child(2) .square:nth-child(1):hover .bg-img {
+    background: url(../elements/ff5/03.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 4%) scaleY(0.9);
+}
+
+/*=====================================================================
+ FF6
+=====================================================================*/
+.container:nth-child(2) .square:nth-child(2) .bg-img {
+    background: url(../elements/ff6/logo_ff6_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.container:nth-child(2) .square:nth-child(2):hover .bg-img {
+    background: url(../elements/ff6/03.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 12%) scaleY(1.1);
+}
+
+/*=====================================================================
+ FF7
+=====================================================================*/
+.container:nth-child(2) .square:nth-child(3) .bg-img {
+    background: url(../elements/ff7/logo_ff7_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.container:nth-child(2) .square:nth-child(3):hover .bg-img {
+    background: url(../elements/ff7/05.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 13%) scaleY(1.1);
+}
+
+/*=====================================================================
+ FF8
+=====================================================================*/
+
+.container:nth-child(2) .square:nth-child(4) .bg-img {
+    background: url(../elements/ff8/logo_ff8_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.container:nth-child(2) .square:nth-child(4):hover .bg-img {
+    background: url(../elements/ff8/05.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 17%) scaleY(1.2);
+}
+
+/*=====================================================================
+ FF9
+=====================================================================*/
+.container:nth-child(3) .square:nth-child(1) .bg-img {
+    background: url(../elements/ff9/logo_ff9_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.container:nth-child(3) .square:nth-child(1):hover .bg-img {
+    background: url(../elements/ff9/03.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 25%) scaleY(1.3);
+}
+
+/*=====================================================================
+ FF10
+=====================================================================*/
+.container:nth-child(3) .square:nth-child(2) .bg-img {
+    background: url(../elements/ff10/logo_ff10_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 3%);
+}
+
+.container:nth-child(3) .square:nth-child(2):hover .bg-img {
+    background: url(../elements/ff10/03.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 27%) scaleY(1.3);
+}
+
+/*=====================================================================
+ FF11
+=====================================================================*/
+.container:nth-child(3) .square:nth-child(3) .bg-img {
+    background: url(../elements/ff11/logo_ff11_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, -12%);
+}
+
+.container:nth-child(3) .square:nth-child(3):hover .bg-img {
+    background: url(../elements/ff11/05.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 27%) scaleY(1.3);
+}
+
+/*=====================================================================
+ FF12
+=====================================================================*/
+.container:nth-child(3) .square:nth-child(4) .bg-img {
+    background: url(../elements/ff12/logo_ff12_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.container:nth-child(3) .square:nth-child(4):hover .bg-img {
+    background: url(../elements/ff12/06.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 27%) scaleY(1.3);
+}
+
+/*=====================================================================
+ FF13
+=====================================================================*/
+.container:nth-child(4) .square:nth-child(1) .bg-img {
+    background: url(../elements/ff13/logo_ff13_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, -5%);
+}
+
+.container:nth-child(4) .square:nth-child(1):hover .bg-img {
+    background: url(../elements/ff13/04.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 26%) scaleY(1.3);
+}
+
+/*=====================================================================
+ FF14
+=====================================================================*/
+.container:nth-child(4) .square:nth-child(2) .bg-img {
+    background: url(../elements/ff14/logo_ff14_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, -10%);
+}
+
+.container:nth-child(4) .square:nth-child(2):hover .bg-img {
+    background: url(../elements/ff14/03.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 26%) scaleY(1.3);
+}
+
+/*=====================================================================
+ FF15
+=====================================================================*/
+.container:nth-child(4) .square:nth-child(3) .bg-img {
+    background: url(../elements/ff15/logo_ff15_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, -0%);
+}
+
+.container:nth-child(4) .square:nth-child(3):hover .bg-img {
+    background: url(../elements/ff15/09.jpg) 0 0 no-repeat;
+    background-size: contain;
+    transform: rotate(-45deg) translate(0, 25%) scaleY(1.3);
+}
+
+/*=====================================================================
+ FF16
+=====================================================================*/
+.container:nth-child(4) .square:nth-child(4) .bg-img::after {
+    content: "comming soon...";
+    width: 100%;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    transform: translate(10%, -10%);
+}
+
+.container:nth-child(4) .square:nth-child(4):hover .bg-img {
+    content: "";
+    width: 5vw;
+    height: 5vw;
+    left: 20vw;
+    background: url(../elements/sabotender_w_trans.png) 0 0 no-repeat;
+    background-size: contain;
+    animation: saboten 1s ease 1s forwards;
+    transform: rotate(-60deg);
+
+    @keyframes saboten {
+        0% {
+            left: 20vw;
+        }
+
+        100% {
+            left: 8vw;
+        }
+    }
+}
+
+.container:nth-child(4) .square:nth-child(4):hover .bg-img::after {
+    content: "";
+}
+
+/*=====================================================================
+ スライド(背景画像の設定)※現在は１枚
+=====================================================================*/
+.slide,
+.slide li {
+    list-style: none;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    transition: 0.5s all;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -9vh;
+}
+
+/*=====================================================================
+ 各タイトル表示用スクエアのアニメーション
+=====================================================================*/
+/* 線(ボーダー)のスタイル 共通 */
+.square:before,
+.square:after,
+.square a:before,
+.square a:after {
+    content: '';
+    position: absolute;
+    background: #000;
+}
+
+/* 下のボーダー */
+.square:before {
+    bottom: 0;
+    left: -200px;
+    width: 200px;
+    height: 1px;
+}
+
+/* 右のボーダー */
+.square:after {
+    bottom: -200px;
+    right: 0;
+    width: 1px;
+    height: 200px;
+}
+
+/* 上のボーダー */
+.square a:before {
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 1px;
+}
+
+/* 左のボーダー */
+.square a:after {
+    top: -200px;
+    left: 0;
+    width: 1px;
+    height: 200px;
+}
+
+.square:hover:before {
+    animation: leftLine 1.5s linear 0.75s infinite;
+
+    @keyframes leftLine {
+        0% {
+            left: -200px;
+        }
+
+        100% {
+            left: 200px;
+        }
+    }
+}
+
+.square:hover:after {
+    animation: bottomLine 1.5s linear 0s infinite;
+
+    @keyframes bottomLine {
+        0% {
+            bottom: -200px;
+        }
+
+        100% {
+            bottom: 200px;
+        }
+    }
+}
+
+.square a:hover:before {
+    animation: rightLine 1.5s linear 0.75s infinite;
+
+    @keyframes rightLine {
+        0% {
+            right: -200px;
+        }
+
+        100% {
+            right: 200px;
+        }
+    }
+}
+
+.square a:hover:after {
+    animation: topLine 1.5s linear 0s infinite;
+
+    @keyframes topLine {
+        0% {
+            top: -200px;
+        }
+
+        100% {
+            top: 200px;
+        }
+    }
+}
+
+/*=====================================================================
+ レスポンシブ設定
+=====================================================================*/
+.pc {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    .fixed {
+        justify-content: center;
+
+        .typesquare {
+            font-size: 14px;
+        }
+    }
+
+    .wrap {
+        width: 68.2vw;
+        top: 8vh;
+
+        .container {
+            width: 68vw;
+            height: 20vh;
+
+            .square {
+                width: 15vw;
+                height: 15vw;
+            }
+        }
+    }
+
+    .other-list li,
+    .sound-list li {
+        padding: 0.6vh;
+        font-size: 14px;
+    }
+
+    @keyframes saboten {
+        0% {
+            left: 20vw;
+        }
+
+        100% {
+            left: 12vw;
+        }
+
+    }
+}

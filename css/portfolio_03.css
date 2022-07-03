@@ -1,0 +1,311 @@
+@charset "UTF-8";
+@import url(./reboot.css);
+@import url(./format.css);
+/*==================================================
+ bodyのデフォルト設定
+==================================================*/
+body {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #444;
+}
+
+/*==================================================
+ ノート全体の設定
+==================================================*/
+.wrap {
+  width: calc(100% - 70px);
+  margin: 10px;
+  border-radius: 15px;
+  background-color: inherit;
+  position: relative;
+  left: 50px;
+  z-index: 2;
+  cursor: url(../img/pencil32.png) 0 32, auto;
+}
+
+/*==================================================
+ リングホールの設定
+==================================================*/
+/* リングホールの位置 */
+.dots {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  list-style: none;
+  /* リングホールのサイズ */
+}
+
+.dots li {
+  font-size: 32px;
+  /* リングホール大のサイズ */
+}
+
+.dots li:nth-child(9n) {
+  font-size: 48px;
+  -webkit-transform: translateX(-8px);
+          transform: translateX(-8px);
+}
+
+/*==================================================
+ 付箋の設定
+==================================================*/
+.sticky {
+  width: 70px;
+  height: 14%;
+  border-radius: 13px 0 0 13px;
+  position: absolute;
+  left: -40px;
+  z-index: 1;
+  /*==================================================
+     付箋の白い部分の設定
+    ==================================================*/
+}
+
+.sticky .inner {
+  width: 40px;
+  height: 100%;
+  border: 5px solid #fff;
+  border-radius: 9px 0 0 9px;
+  background-color: #fff;
+  position: absolute;
+  top: -0.5px;
+  left: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  z-index: 1;
+}
+
+/*==================================================
+ 付箋の個別設定
+==================================================*/
+/* 付箋1のデフォルト設定 */
+.sticky.no1 {
+  z-index: 3;
+}
+
+.no1 {
+  top: 5%;
+  border: 5px solid #f00;
+  background-color: #f00;
+}
+
+.no2 {
+  top: 19.5%;
+  border: 5px solid #ffa500;
+  background-color: #ffa500;
+}
+
+.no3 {
+  top: 34%;
+  border: 5px solid #ff0;
+  background-color: #ff0;
+}
+
+.no4 {
+  top: 48.5%;
+  border: 5px solid #080;
+  background-color: #080;
+}
+
+.no5 {
+  top: 63%;
+  border: 5px solid #0ff;
+  background-color: #0ff;
+}
+
+.no6 {
+  top: 77.5%;
+  border: 5px solid #00f;
+  background-color: #00f;
+}
+
+.no7 {
+  top: 92%;
+  border: 5px solid #800080;
+  background-color: #800080;
+}
+
+/*==================================================
+ノートの設定
+==================================================*/
+.note {
+  width: calc(100% - 2px);
+  padding: 20px 60px;
+  border: 1px solid #888;
+  border-radius: 15px 15px 0 0;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+/*==================================================
+ ノートの見出し、日付の設定
+==================================================*/
+/* ノートの見出し、日付の全体設定 */
+.headline {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  position: relative;
+  /* 日付のスタイル、罫線 */
+}
+
+.headline .date {
+  float: right;
+  margin: 20px 0;
+  padding: 0 10px;
+  border-bottom: 2px solid #ccc;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+/* 見出しテキストのスタイル */
+h1,
+h2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 48px;
+  text-align: center;
+  margin: 20px auto;
+  position: relative;
+}
+
+/* 見出しの下罫線のスタイル */
+h1::after,
+h2::after {
+  content: "";
+  height: 4px;
+  background-color: #ccc;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0px;
+}
+
+/* 1ページ目の見出し下罫線の横幅 */
+h1::after {
+  width: 850px;
+}
+
+/* 2ページ目以降の見出し下罫線の横幅 */
+h2::after {
+  width: 500px;
+}
+
+/*==================================================
+ ノートの記述部分の設定
+==================================================*/
+/* ノートの記述部分のスタイル */
+.text {
+  width: 100%;
+  height: calc(100vh - 140px);
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(204, 204, 204, 0)), color-stop(97%, rgba(204, 204, 204, 0)), to(#cccccc));
+  background-image: linear-gradient(0deg, rgba(204, 204, 204, 0) 0%, rgba(204, 204, 204, 0) 97%, #cccccc 100%);
+  background-size: 100% 2.5rem;
+  position: relative;
+  text-align: left;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  line-height: 2.5rem;
+  /* 上罫線 */
+  /* 本文 */
+}
+
+.text::before {
+  content: "";
+  width: 100%;
+  height: 0.5px;
+  border: 2px solid #ccc;
+  border-left: none;
+  border-right: none;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.text span {
+  padding: 0 10px;
+  position: absolute;
+  top: 5px;
+}
+
+/* ページ切り替えのためのCSS */
+.page {
+  width: 100%;
+  display: none;
+  position: relative;
+  /* ページ内のフロートを解除 */
+  /* デフォルトページを設定 */
+}
+
+.page::after {
+  clear: both;
+}
+
+.page.p1 {
+  display: block;
+}
+
+/*==================================================
+ 以下個別の設定
+==================================================*/
+/* 画像のサイズ設定 */
+img {
+  width: 40vw;
+  max-height: 60vh;
+  background-size: contain;
+  border: 4px solid #444;
+  margin: 10px;
+}
+
+/* 奇数ページの写真位置とマージン */
+.p1 img,
+.p3 img,
+.p5 img,
+.p7 img {
+  float: left;
+  margin-right: 30px;
+}
+
+/* 偶数ページの写真位置とマージン */
+.p2 img,
+.p4 img,
+.p6 img {
+  float: right;
+  margin-left: 30px;
+}
+
+/* 重要部分のアクセント */
+.marker {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 239, 32, 0)), color-stop(60%, rgba(255, 239, 32, 0)), to(rgba(255, 239, 32, 0.5)));
+  background: linear-gradient(to bottom, rgba(255, 239, 32, 0) 0%, rgba(255, 239, 32, 0) 60%, rgba(255, 239, 32, 0.5) 100%);
+  height: 3rem;
+}
+/*# sourceMappingURL=portfolio_03.css.map */
