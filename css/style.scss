@@ -1,6 +1,5 @@
 @import url(./reboot.css);
 @import url(./format.css);
-
 @font-face {
     font-family: "base";
     src: url(../font/NotoSansJP-Regular.otf);
@@ -20,7 +19,6 @@ $base: #f4f5f7; //rgb(244, 245, 247)
 $main: #99cccc; //rgb(153, 204, 204)
 $accent: #99ccff; //rgb(153, 204, 255)
 $text: #444;
-
 .center {
     text-align: center;
 }
@@ -39,7 +37,6 @@ body {
 
 article {
     margin-bottom: 100px;
-
     p,
     a {
         padding-left: 1rem;
@@ -56,7 +53,6 @@ h1 {
     margin: 160px auto 100px;
     position: relative;
     text-align: center;
-
     &::before,
     &::after {
         content: "";
@@ -65,29 +61,24 @@ h1 {
         position: absolute;
         top: calc(50% - 2px);
     }
-
     &::before {
         background: linear-gradient(-90deg, #444 40%, rgb(244, 245, 247));
         left: 0;
     }
-
     &::after {
         background: linear-gradient(90deg, #444 40%, rgb(244, 245, 247));
         right: 0;
     }
-
     span {
         width: fit-content;
         background-color: $base;
         display: inline-block;
         transition: 0.1s ease-in-out all;
-
         &:hover {
             color: #99ccff;
             transform: scale(1.5);
         }
     }
-
     .hide-br {
         display: none;
     }
@@ -99,13 +90,11 @@ h2 {
     color: #fff;
     text-shadow: 3px 3px 2px #444;
     transition: 0.3s ease-in-out all;
-
     &:hover {
         background: linear-gradient(90deg, rgb(153, 204, 204), rgb(244, 245, 247));
         color: #444;
         text-shadow: 3px 3px 1px #fff;
     }
-
     &::first-letter {
         font-size: 150%;
     }
@@ -113,17 +102,15 @@ h2 {
 
 #header {
     width: 100%;
-    background-color: rgba(153, 204, 255, 0.75);
+    background-color: rgba(153, 204, 255, 0.9);
     position: fixed;
     top: 0;
     z-index: 5;
-
     .container50 {
         height: 60px;
         display: flex;
         justify-content: space-around;
         align-items: center;
-
         a {
             width: fit-content;
             height: fit-content;
@@ -142,7 +129,6 @@ h2 {
             font-weight: bold;
             letter-spacing: 0.15rem;
             transition: 0.2s ease-in-out all;
-
             // overflow: hidden;
             &:hover {
                 border-color: #fff;
@@ -155,30 +141,24 @@ h2 {
 }
 
 #main {
-
     #about,
     #bio,
     #works {
         display: flex;
-
         h2 {
             width: 30%;
         }
-
         .right-column {
             width: 70%;
         }
     }
-
     ul {
         list-style: none;
     }
-
     #bio {
         h2 {
             background: linear-gradient(-90deg, rgb(153, 204, 255), rgb(244, 245, 247));
             text-align: right;
-
             &:hover {
                 background: linear-gradient(-90deg, rgb(153, 204, 204), rgb(244, 245, 247));
                 color: #444;
@@ -186,12 +166,10 @@ h2 {
             }
         }
     }
-
     #work {
         .work {
             font-size: 24px;
         }
-
         p {
             padding-left: 2rem;
         }
@@ -205,17 +183,14 @@ h2 {
     background-color: $main;
     background: linear-gradient(0deg, rgb(153, 204, 255) 60%, rgb(244, 245, 247));
     position: relative;
-
     .contact {
         background: transparent;
         font-size: 3.2rem;
     }
-
     .mail {
         font-size: 1.6rem;
         font-family: "lime";
     }
-
     .back-top {
         width: 100px;
         height: 100px;
@@ -225,28 +200,22 @@ h2 {
         bottom: 40px;
         right: 40px;
         transform: rotate(180deg);
-
         &:hover {
             animation: backtop-anime 2s ease infinite;
         }
-
         @keyframes backtop-anime {
             0% {
                 transform: rotate(180deg) translateY(0);
             }
-
             12.5% {
                 transform: rotate(180deg) translateY(10%);
             }
-
             25% {
                 transform: rotate(180deg) translateY(0);
             }
-
             37.5% {
                 transform: rotate(180deg) translateY(10%);
             }
-
             50% {
                 transform: rotate(180deg) translateY(0);
             }
@@ -256,7 +225,6 @@ h2 {
 
 @media screen and (max-width: 1350px) {
     h1 {
-
         .hide-br {
             display: block;
         }
