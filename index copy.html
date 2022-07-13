@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style copy.css">
+
+    <!-- js -->
+    <script src="./js/jquery-3-6-0.js"></script>
+    <script src="./js/smooth-scroll.min.js"></script>
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        "use strict";
+
+        function changeContent(point) {
+            $("#container").css({
+                "left": point
+            });
+        };
+
+        $(document).ready(function() {
+            var scroll = new SmoothScroll('a[href^="#"]', {
+                easing: "easeOutQuint",
+                header: "[data-scroll-header]"
+            });
+
+            let mainWidth = document.getElementById("container").clientWidth;
+            if (mainWidth <= 1330) {
+                let mainHeight = document.getElementById("container").clientHeight;
+                mainHeight += 40;
+                $("#main").css({
+                    "height": mainHeight
+                });
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+    <header id="header" data-scroll-header>
+        <h1>
+            <span>S</span>
+            <span>e</span>
+            <span>l</span>
+            <span>f</span>
+            <br class="hide-br">
+            <span>i</span>
+            <span>n</span>
+            <span>t</span>
+            <span>r</span>
+            <span>o</span>
+            <span>d</span>
+            <span>u</span>
+            <span>c</span>
+            <span>t</span>
+            <span>i</span>
+            <span>o</span>
+            <span>n</span>
+        </h1>
+    </header>
+
+    <nav class="containerC">
+        <button type="button" onclick="changeContent(0)">About Me</button>
+        <button type="button" onclick="changeContent('-33.33333%')">Biography</button>
+        <button type="button" onclick="changeContent('-66.66666%')">Work</button>
+        <button type="button" onclick="changeContent('-100%')"> Contact</button>
+    </nav>
+
+    <main id="main">
+        <div id="container">
+
+            <article id="about">
+                <h2>About Me</h2>
+                <div class="right-column">
+                    <p style="padding-left: 1rem;">
+                        はじめまして。<br> 廣瀬　貴之と申します。
+                        <br>
+                        <br> 私は2021年10月まで販売業に計18年間従事しておりました。
+                        <br> キャリアやスキルアップに限界を感じ、
+                        <br> 以前から興味のあったIT業界へ挑戦すべく職業訓練の門を叩き、
+                        <br> 2021年12月に株式会社QLIPの職業訓練コースである
+                        <br> WEBシステム開発実践科を受講しました。
+                        <br>
+                        <br> WEBシステム開発実践科では半年かけて
+                    </p>
+                    <div class="grid">
+                        <span>Java</span>
+                        <span>Illustrator</span>
+                        <span>PhotoShop</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Servlet＆JSP</span>
+                    </div>
+                    <p>
+                        といったWEBサイト構築のための知識と技術の学習をしました。<br>
+                        <br> その中でも特に惹かれて学習に熱を入れたのがHTML、CSS、JavaScriptでした。
+
+                        <br> 普段何気なく見ている仕組みも全く分からなかったWEBサイトが、
+                        <br> 複数のタグを組み合わせることで作り上げることが出来ることに強い感動と興奮を覚え、
+                        <br> 他のカリキュラムと同時並行で自学していた程でした。
+                        <br> 結果、半年間の講習でタグの意味すら分からない無学の状態から
+                        <br> 卒業制作時にはHTML・CSS・JavaScriptコーディングと調整、不具合修正を一人で担えるようになりました。
+                        <br>
+                        <br> とはいえ時間的問題から実装に至らなかった機能や修正できなかった不具合など、
+                        <br> まだまだ未熟な点も多々あり実力不足を痛感している次第ではありますが、
+                        <br> 逆境を糧にして学んできた半年間でWEB業界へ踏み出す技術と自信を培いました。
+                    </p>
+                </div>
+            </article>
+
+            <article id="bio">
+                <h2>Biography</h2>
+
+                <div class="right-column">
+                    <p style="padding-left: 1rem;">
+                        以前は共に販売業に従事。<br> 計18年間の内、5年を管理職として勤務。
+                        <br> 従業員の労務管理や人材育成、商品や店舗などのアセット管理、
+                        <br> 売上・利益・経費など財務諸表を基にした運営・経営などのマネージメント業務を経験。
+                        <br>
+                        <br> 2021年12月に新たなことに挑戦するためにITの職業訓練校へ入校。
+                        <br> 半年間の講習で主にフロントエンドの知識と技術を研磨。
+                        <br> デザインなどのクリエイティブ系よりもコーディングやプログラミングの方が得意。
+                        <br>
+                        <br> 負けず嫌いな性格で問題を途中で投げ出すのが嫌い。
+                        <br> 集中すれば何時間でも作業が続けられる半面、区切りをつけるのが苦手な側面も。
+                        <br> 新しい知識や技術を取り入れることに魅力を感じる。
+                        <br>
+                        <br> 現在はReactを学習中。
+                    </p>
+                </div>
+            </article>
+
+            <article id="works">
+                <h2>Works</h2>
+                <div class="right-column">
+                    <a class="work" href="./html/portfolio_01.html" target="_blank" rel="noopener noreferrer">work_01</a>
+                    <p>
+                        flex-boxとアニメーションを学習する際に作ったもの。<br> transform:rotateを使用したデザインの微調整に苦心。
+                        <br> 総製作時間：20時間
+                    </p>
+
+                    <a class="work" href="./html/portfolio_02.html" target="_blank" rel="noopener noreferrer">work_02</a>
+                    <p>
+                        単位変換計算機。<br> 値や単位が変更されると結果が再計算され更新される。
+                        <br> 総製作時間：4時間
+                    </p>
+
+                    <a class="work" href="./html/portfolio_03.html" target="_blank" rel="noopener noreferrer">work_03</a>
+                    <p>
+                        職業訓練校在学中のHRで発表する予定だったもの。<br> JavaScriptとマーケティングの勉強を兼ねて制作。
+                        <br> 総製作時間：6時間
+                    </p>
+
+                    <a class="work" href="./html/portfolio_04.html" target="_blank" rel="noopener noreferrer">work_04</a>
+                    <p>
+                        架空のオンラインプログラミング学習サイト。<br> プログラミング言語一覧、ログイン画面、新規会員登録画面まで実装。
+                        <br> 総製作時間：12時間
+                    </p>
+
+                    <a class="work" href="https://reqriutment-test.web.app/" target="_blank" rel="noopener noreferrer">work_05</a>
+                    <p>
+                        Reactを学習する過程で以下の課題を基に制作したもの。<br>
+                        <a href="https://notion.yumemi.co.jp/0e9ef27b55704d7882aab55cc86c999d">
+                            https://notion.yumemi.co.jp/0e9ef27b55704d7882aab55cc86c999d
+                        </a>
+                        <br> 総製作時間：12時間
+                    </p>
+                </div>
+            </article>
+
+            <article id="contact">
+                <div class="container50">
+                    <h2 class="contact center">contact</h2>
+                    <br>
+                    <p class="mail center">E-mail:&nbsp&nbsp k7cdpz6s@gmail.com</p>
+                    <a class="back-top" href="#"></a>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>

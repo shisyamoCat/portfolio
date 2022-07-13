@@ -1,0 +1,283 @@
+@import url(./reboot.css);
+@import url(./format.css);
+@font-face {
+    font-family: "base";
+    src: url(../font/NotoSansJP-Regular.otf);
+}
+
+@font-face {
+    font-family: "round";
+    src: url(../font/MPLUSRounded1c-Regular.ttf);
+}
+
+@font-face {
+    font-family: "lime";
+    src: url(../font/Limelight-Regular.ttf);
+}
+
+$base: #f4f5f7; //rgb(244, 245, 247)
+$main: #99cccc; //rgb(153, 204, 204)
+$accent: #99ccff; //rgb(153, 204, 255)
+$accent2: rgb(92, 174, 255); //
+$text: #444;
+.center {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-margin-top: 100px;
+}
+
+body {
+    height: fit-content;
+    background-color: $accent2;
+    position: relative;
+    color: $text;
+    font-family: "base";
+    line-height: 1.5;
+    &::before,
+    &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    &::before {
+        background: linear-gradient(rgba(0, 0, 255, .3), rgba(255, 255, 255, .5));
+        clip-path: circle(40% at 11% 20%);
+    }
+    &::after {
+        background: linear-gradient(0deg, rgba(0, 0, 255, .5), rgba(255, 255, 255, .3));
+        clip-path: circle(41.4% at 100% 100%);
+    }
+}
+
+article {
+    margin-bottom: 100px;
+    p,
+    a {
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-family: "lime";
+}
+
+h1 {
+    height: fit-content;
+    color: $base;
+    text-shadow: 3px 3px 2px #444;
+    text-align: right;
+    span {
+        width: fit-content;
+        background-color: transparent;
+        display: inline-block;
+        transition: 0.1s ease-in-out all;
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+}
+
+h2 {
+    padding: 5px 10px;
+    background: transparent;
+    color: #fff;
+    text-shadow: 3px 3px 2px #444;
+    transition: 0.3s ease-in-out all;
+    &::first-letter {
+        font-size: 150%;
+    }
+}
+
+
+/***************************************************************************
+
+***************************************************************************/
+
+#header {
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    bottom: 5px;
+    right: 25px;
+    z-index: 5;
+}
+
+nav {
+    width: fit-content;
+    padding-left: 10px;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    button {
+        width: fit-content;
+        height: fit-content;
+        margin: 10px 0;
+        padding: 10px 20px;
+        border: none;
+        border-top: 2px solid rgba(255, 255, 255, .5);
+        border-left: 2px solid rgba(255, 255, 255, .5);
+        border-radius: 50px;
+        background: rgba(255, 255, 255, .3);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        color: #fff;
+        text-shadow: 3px 3px 2px #444;
+        font-family: "lime";
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 0.15rem;
+        transition: 0.2s ease-in-out all;
+        &:hover {
+            transform: scale(1.2) translateX(5%);
+        }
+    }
+}
+
+#main {
+    width: 300%;
+    height: 100vh;
+    position: relative;
+    #container {
+        width: 300%;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: calc(50% - 50px);
+        left: 0;
+        transform: translateY(-50%);
+        transition: .3s all;
+    }
+    article {
+        width: calc(70vw - 18px);
+        height: fit-content;
+        margin: auto 15vw;
+        padding: 10px;
+        border-top: 2px solid rgba(255, 255, 255, 0.5);
+        border-left: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.5);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        .right-column {
+            width: 100%;
+            padding-left: 10rem;
+            .grid {
+                margin: 0 0 1rem 2rem;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-row-gap: 5px;
+            }
+        }
+    }
+    #work {
+        .work {
+            font-size: 24px;
+        }
+        p {
+            padding-left: 2rem;
+        }
+    }
+    #contact {
+        .mail {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    #header {
+        top: 0;
+        left: 0;
+        position: relative;
+        h1 {
+            padding: 10px 0;
+            text-align: center;
+        }
+        .hide-br {
+            display: none;
+        }
+    }
+    nav {
+        width: 70%;
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-around;
+        left: 50%;
+        transform: translateX(-50%);
+        button {
+            &:hover {
+                transform-origin: 50% 50%;
+                transform: scale(1.2) translateX(0);
+            }
+        }
+    }
+    #main {
+        #container {
+            top: 10px;
+            transform: translateY(0);
+        }
+        article {
+            height: fit-content;
+            margin: 0 15vw;
+            .right-column {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 893px) {
+    body {
+        width: 100%;
+    }
+    nav {
+        margin: 20px 0;
+        padding-left: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        button {
+            width: 25vw;
+            min-width: 150px;
+            margin: 0 auto;
+            font-size: 3vw;
+        }
+    }
+    #main {
+        height: 150vh;
+        #container {
+            height: fit-content;
+            article {
+                width: 90vw;
+                margin: 0 5vw;
+                .right-column {
+                    .grid {
+                        margin-left: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
